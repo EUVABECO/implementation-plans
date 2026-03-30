@@ -23,7 +23,7 @@ The EVC implementation plan consists of the following modules.
 | [Architecture](EVC%20architecture.md)   | This module details the architecture of the EVC tool as it as been envisioned and deployed within the EUVABECO project. Assumptions made with this architecture, although minimal, condition the EVC deployment plan|
 | [Data](EVC%20data.md)   | This module details the external data that is needed for the operation of the EVC tool in terms of content, format and sources. |
 | [Security and Privacy](EVC%20privacy.md)  | This module details the risks for personal data security and privacy incurred within the EVC tool, and the mitigation measures used to make these risks acceptable. |
-| [Deployment}(EVC%20deployment.md) | This module describes the resources, workflow and planning for the deployment of the EVC tool. |
+| [Deployment](EVC%20deployment.md) | This module describes the resources, workflow and planning for the deployment of the EVC tool. |
 | [Verification](EVC%verification.md) | This module describes the verifications that should be applied before releasing to production a deployed EVC. |
 | [Operations](EVC%20operations.md) | This module proposes an organization and assigns tasks for keeping the EVC tool operational once it has been deployed.|
 
