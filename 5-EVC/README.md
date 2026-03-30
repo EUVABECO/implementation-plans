@@ -1,16 +1,10 @@
-EUROPEAN VACCINATION CARD (EVC)  
+# EUROPEAN VACCINATION CARD (EVC)  
 
 # Overview
 
 The purpose of EUVABECO is to deliver to Member States implementation plans for several tools able to support existing or future vaccination practices.
 
 These implementation plans are practical guides for a Member State to decide upon the launch of an implementation project, assign adequate resources, deploy the given tool and keep it operational after deployment.
-
-For each tool, the project delivers a communication package to the intention of Member States, gathering the implementation plan, evidence about its useability and effectiveness, and proposals for supporting the adoption of the tool and its long-term maintenance.
-
-The communication package consists of modules. Some of them are intended for the implementing team and constitute the implementation plan, while others are addressed to other stakeholders.
-
-Some of these modules are complemented with a quick start guide.
 
 # Structure
 
@@ -29,7 +23,7 @@ The EVC implementation plan consists of the following modules.
 
 # List of Abbreviations and Acronyms
 
-This list is transversal to all modules in the EVC communication package.
+This list is transversal to all modules in the EVC implementation plan.
 
 | Abbreviation / Acronym |                                             | Meaning                                                                                                                                                                                |
 |------------------------|---------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
