@@ -1,6 +1,7 @@
 # CLINICAL DECISION SUPPORT SYSTEM (CDS) - SECURITY AND PRIVACY
 
-\| *This module details the risks for personal data security and privacy incurred within the CDS tool, and the mitigation measures used to make these risks acceptable.* \| \|\|
+| *This module details the risks for personal data security and privacy incurred within the CDS tool, and the mitigation measures used to make these risks acceptable.* |
+|--|
 
 # Purpose
 

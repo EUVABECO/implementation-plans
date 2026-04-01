@@ -1,7 +1,7 @@
 # CLINICAL DECISION SUPPORT SYSTEM (CDS) - VERIFICATION
 
 | *This module describes the verifications that should be applied before releasing to production a deployed CDS.* |
-||
+|--|
 
 # Verification of CDS engine
 

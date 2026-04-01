@@ -1,7 +1,7 @@
 # CLINICAL DECISION SUPPORT SYSTEM (CDS) - ARCHITECTURE
 
 | *This module details the architecture of the CDS tool as it as been envisioned and deployed within the EUVABECO project. Assumptions made with this architecture, although minimal, condition the CDS deployment plan described in module 11.* |
-||
+|--|
 
 # Architecture
 

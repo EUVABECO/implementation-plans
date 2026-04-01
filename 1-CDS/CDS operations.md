@@ -1,7 +1,7 @@
 # CLINICAL DECISION SUPPORT SYSTEM (CDS) - OPERATIONS
 
 | *This module proposes an organization and assigns tasks for keeping the CDS tool operational once it has been deployed.* |
-||
+|--|
 
 *Once the tool has been deployed, there is still a need for lasting resources to support its adoption and ensure its maintenance. This section details these further actions.*
 

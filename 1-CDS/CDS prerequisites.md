@@ -1,7 +1,7 @@
 # CLINICAL DECISION SUPPORT SYSTEM (CDS) - PREREQUISITES
 
 | *This module lists the contextual conditions that must be met before the project is launched, and a few workarounds that could be used to anticipate upon their fulfilment.* |
-||
+|--|
 
 # Prerequisites
 

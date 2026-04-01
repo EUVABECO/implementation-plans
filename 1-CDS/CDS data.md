@@ -1,7 +1,7 @@
-CLINICAL DECISION SUPPORT SYSTEM (CDS) - DATA
+# CLINICAL DECISION SUPPORT SYSTEM (CDS) - DATA
 
 | *This module details the external data that is needed for the operation of the CDS tool in terms of content, format and sources.* |
-||
+|--|
 
 # Vaccine codes
 

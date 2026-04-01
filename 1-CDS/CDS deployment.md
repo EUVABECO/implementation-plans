@@ -1,7 +1,7 @@
 # CLINICAL DECISION SUPPORT SYSTEM (CDS) - DEPLOYMENT
 
 | *This module describes the resources, workflow and planning for the deployment of the CDS tool.* |
-||
+|--|
 
 # Project team
 
