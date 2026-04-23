@@ -134,15 +134,13 @@ The test suite, with the set of reference EVCs, the list of vaccines to add and 
 
 # Build resources
 
-| Content                                                                           | Link                                                                                                   |
-|-----------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|
-| Detailed specification of the EVC digital content (under its global name of CLVR) | <https://github.com/IVC-NUVA/CLVR>                                                                     |
-| Publication of NUVA terminology                                                   | <https://github.com/IVC-NUVA/NUVA>                                                                     |
-| Reference implementation for a signature server                                   | <https://github.com/EUVABECO/signer>                                                                   |
-| Implementation of a EVC scanner (source)                                          | <https://github.com/EUVABECO/evc_scan>                                                                 |
-| EVC scanner exposed                                                               | <https://evc.euvabeco.eu>                                                                              |
-| Standalone encoder and decoder                                                    | <https://github.com/EUVABECO/EVC-generator>                                                            |
-| Alternative keystore (documentation)                                              | <https://github.com/EUVABECO/implementation-plans/blob/main/5-EVC/Resources/Keystore.md>               |
-| Alternative keystore exposed                                                      | <https://keys.euvabeco.eu/.well-known/jwks.json>                                                       |
-| Deduplication policy                                                              | <https://github.com/EUVABECO/implementation-plans/blob/main/5-EVC/Resources/EVC%20deduplication.md>    |
-| Registry management policy                                                        | <https://github.com/EUVABECO/implementation-plans/blob/main/5-EVC/Resources/Registry%20management.md>  |
+  + [Detailed specification of the EVC digital content](https://github.com/IVC-NUVA/CLVR)
+  + [Publication of NUVA terminology](https://github.com/IVC-NUVA/NUVA)
+  + [Reference implementation for a signature server](https://github.com/EUVABECO/signer)
+  + [Implementation of an EVC scanner (source)](https://github.com/EUVABECO/evc_scan>)
+  + [EVC scanner exposed ](https://evc.euvabeco.eu)
+  + [Standalone encoder and decoder  ](https://github.com/EUVABECO/EVC-generator)
+  + [Alternative keystore (documentation)](Resources/Keystore.md)
+  + [Alternative keystore exposed](https://keys.euvabeco.eu/.well-known/jwks.json)
+  + [Deduplication policy](Resources/EVC%20deduplication.md)
+  + [Registry management policy](Resources/Registry%20management.md)
