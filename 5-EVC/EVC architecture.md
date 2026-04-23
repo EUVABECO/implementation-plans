@@ -1,10 +1,5 @@
 # EUROPEAN VACCINATION CARD (EVC) - ARCHITECTURE
 
-| *The purpose of EUVABECO is to deliver to Member States implementation plans for several tools able to support existing or future vaccination practices.*<br>*These implementation plans are practical guides for a Member State to decide upon the launch of an implementation project, assign adequate resources, deploy the given tool and keep it operational after deployment.*<br>*This module details the architecture of the EVC tool as it as been envisioned and deployed within the EUVABECO project. Assumptions made with this architecture, although minimal, condition the EVC deployment plan described in module 11.* |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-
-# EVC structure
-
 The EVC is a PDF file encompassing the three representations of the same vaccination history:
 
 -   As a human readable list of administered vaccines,
@@ -48,19 +43,28 @@ Once the master records for all vaccines are identified, the EHR application can
 
 The payload is a JSON structure with the following content:
 
-| L1  | L2  | Card. | Type   | Example    | Comment                                        |
-|-----|-----|-------|--------|------------|------------------------------------------------|
-| ver |     | 1..1  | string | 1.0.0      | Version of the structure                       |
-| nam |     | 1..1  |        |            | Basic identity traits                          |
-|     | fnt | 1..1  | string | DOE        | Name                                           |
-|     | gnt | 1..1  | string | John       | First or usual given name                      |
-| dob |     | 1..1  | date   | 2017-07-19 | Date of birth                                  |
-| v   |     | 0..\* |        |            | Vaccine administration records                 |
-|     | reg | 1..1  | string | FRA        | 2 to 6 letters code for a registry             |
-|     | rep | 1..1  | int    | 5          | Index for a repository in a registry           |
-|     | i   | 1..1  | int    | 1296       | Reference within a repository for a given date |
-|     | a   | 1..1  | int    | 1386       | Age in days when the vaccine was administered  |
-|     | mp  | 1..1  | int    | 29         | NUVA code for the vaccine (here REPEVAX)       |
+| L1    | L2  | L3  | Card. | Type   | Example             | Comment                                         |
+|-------|-----|-----|-------|--------|---------------------|-------------------------------------------------|
+| iss   |     |     | 1..1  | String | LUX                 | Issuer of the EVC                               |
+| iat   |     |     | 1..1  | NDate  | 1736787882          | Date of issuance                                |
+| exp   |     |     | 1..1  | NDate  | 2092554938          | Expiration date (10 years after issuance)       |
+| hcert |     |     |       |        |                     |                                                 |
+|       | ver |     | 1..1  | string | 1.0.0               | Version of the structure                        |
+|       | nam |     | 1..1  |        |                     | Basic identity traits                           |
+|       |     | fnt | 1..1  | string | DOE                 | Name                                            |
+|       |     | gnt | 1..1  | string | John                | First or usual given name                       |
+|       | dob |     | 1..1  | date   | 2017-07-19          | Date of birth                                   |
+|       | pid |     | 0..1  |        |                     | Optional digital identifier for the person      |
+|       |     | oid | 1..1  | string | 1.2.250.1.213.1.4.8 | Object identifier for the identification scheme |
+|       |     | id  | 1..1  | string | 1630777186051       | Person identifier within the scheme             |
+|       | v   |     | 0..\* |        |                     | Vaccine administration records                  |
+|       |     | reg | 1..1  | string | LUX                 | 2 to 6 letters code for a registry              |
+|       |     | rep | 1..1  | int    | 5                   | Index for a repository in a registry            |
+|       |     | i   | 1..1  | int    | 1296                | Reference within a repository for a given date  |
+|       |     | a   | 1..1  | int    | 1386                | Age in days when the vaccine was administered   |
+|       |     | mp  | 1..1  | int    | 29                  | NUVA code for the vaccine (here REPEVAX)        |
+
+The minimal identity traits for identity check by the health professional (family name, given name and date of birth) can optionally be complemented by a digital identifier specific to the delivering country. The reuse or interpretation of this identifier is not required from other health jurisdictions.
 
 ## Compacting the data
 

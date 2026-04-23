@@ -1,8 +1,5 @@
 # EUROPEAN VACCINATION CARD (EVC) - DEPLOYMENT
 
-| *The purpose of EUVABECO is to deliver to Member States implementation plans for several tools able to support existing or future vaccination practices.*<br>*These implementation plans are practical guides for a Member State to decide upon the launch of an implementation project, assign adequate resources, deploy the given tool and keep it operational after deployment.*<br>*This module describes the resources, workflow and planning for the deployment of the EVC tool.* |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-
 # Project team
 
 The project team consists of representatives from:
@@ -36,6 +33,7 @@ The decisions impacting the overall structure within the MS will be taken during
 -   Which health professionals will deliver EVCs
 -   From which systems will be delivered the EVCs
 -   Who will operate the signature servers
+-   In which languages the EVC should be delivered
 
 The structure with registries and repositories is designed to accommodate for very variable settings.
 
@@ -136,19 +134,15 @@ The test suite, with the set of reference EVCs, the list of vaccines to add and 
 
 # Build resources
 
--   Reference implementation for a signature server
-    -   Source: <https://github.com/EUVABECO/signer>
-    -   Exposed at: <https://signer.staging.mesvaccins.pro/jsonrpc>
--   Toolbox technical documentation:
-    -   Source: <https://github.com/EUVABECO/evc_doc>
-    -   Exposed at: <https://euvabeco.github.io/evc_doc/introduction/introduction/>
--   API contract for signature server
--   Software library to retrieve the NUVA terminology:  
-    <https://docs.nuva.mesvaccins.net/en/nuva>
--   Software libraries for various languages
--   Test suite of typical EVC (set of EVC, checker)
--   Reference implementation of viewer for citizens:
-    -   Source: <https://github.com/EUVABECO/cve_demo>
-    -   Exposed at: <https://euvabeco.github.io/cve_demo/>
--   Deduplication policy: <https://euvabeco.eu/evc-deduplication/>
--   Registry management policy: <https://euvabeco.eu/evc-registry-management/>
+| Content                                                                           | Link                                                                                                   |
+|-----------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|
+| Detailed specification of the EVC digital content (under its global name of CLVR) | <https://github.com/IVC-NUVA/CLVR>                                                                     |
+| Publication of NUVA terminology                                                   | <https://github.com/IVC-NUVA/NUVA>                                                                     |
+| Reference implementation for a signature server                                   | <https://github.com/EUVABECO/signer>                                                                   |
+| Implementation of a EVC scanner (source)                                          | <https://github.com/EUVABECO/evc_scan>                                                                 |
+| EVC scanner exposed                                                               | <https://evc.euvabeco.eu>                                                                              |
+| Standalone encoder and decoder                                                    | <https://github.com/EUVABECO/EVC-generator>                                                            |
+| Alternative keystore (documentation)                                              | <https://github.com/EUVABECO/implementation-plans/blob/main/5-EVC/Resources/Keystore.md>               |
+| Alternative keystore exposed                                                      | <https://keys.euvabeco.eu/.well-known/jwks.json>                                                       |
+| Deduplication policy                                                              | <https://github.com/EUVABECO/implementation-plans/blob/main/5-EVC/Resources/EVC%20deduplication.md>    |
+| Registry management policy                                                        | <https://github.com/EUVABECO/implementation-plans/blob/main/5-EVC/Resources/Registry%20management.md>  |

@@ -1,9 +1,4 @@
-# EUROPEAN VACCINATION CARD (EVC)  - PREREQUISITES
-
-| *The purpose of EUVABECO is to deliver to Member States implementation plans for several tools able to support existing or future vaccination practices.*<br>*These implementation plans are practical guides for a Member State to decide upon the launch of an implementation project, assign adequate resources, deploy the given tool and keep it operational after deployment.*<br>*This module lists the contextual conditions that must be met before the project is launched, and a few workarounds that could be used to anticipate upon their fulfilment.* |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-
-# Assessment of prerequisites
+# EUROPEAN VACCINATION CARD (EVC) - PREREQUISITES
 
 ## Operational
 

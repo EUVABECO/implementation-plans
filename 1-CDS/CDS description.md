@@ -1,9 +1,5 @@
 # CLINICAL DECISION SUPPORT SYSTEM (CDS) - FUNCTIONAL DESCRIPTION
 
-
-| *This module is a functional analysis of the CDS tool with an overview, the stakeholders using or contributing to the use of the tool, their respective functional requirements, the non-functional requirements, and a collection of use cases illustrating the desired functions.* |
-|---|
-
 # Description of the tool
 
 *This section provides a functional overview of the intended tool and its usage. It outlines the goals and features without referring to any specific implementation.*
