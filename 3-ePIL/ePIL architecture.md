@@ -82,7 +82,7 @@ This supposes the existence of:
 -   A mobile application used to scan the Datamatrix code from the package, fetch the online ePIL content and display it.
 -   A reference mechanism from the Datamatrix content to the relevant ePIL resource within the current health jurisdiction.
 
-The main difficulty lays in the second point. The Datamatrix content identifies the product with a Data Carrier Identifier (DCI), that is generally the GTIN code for the product allocated by the GS1 Organization, although exceptions exist (GS1-alike codes in France, use of the PPN number in Germany).
+The main difficulty lies in the second point. The Datamatrix content identifies the product with a Data Carrier Identifier (DCI), that is generally the GTIN code for the product allocated by the GS1 Organization, although exceptions exist (GS1-alike codes in France, use of the PPN number in Germany).
 
 This identifier varies with all presentations of the product, and there is no publicly available resource that would bind it to a given vaccine. Yet, this information is available within the infrastructure implemented for the execution of the Falsified Medicines Directive and could possibly be aligned with the vaccine codes used for the standardised references described above. However, this is not under the control of any individual Member State and should be handled at the European level.
 
