@@ -80,7 +80,7 @@ When used by health professionals to support patient care, the CDS tool qualifie
 
 The CDS tool’s classification is guided by Rule 11 of Annex VIII of the MDR. While some argue that vaccination decision tools belong in Class I (non-therapeutic), the prevailing consensus is that they should be considered Class IIa devices.
 
-This This classification imposes stringent quality assurance requirements to ensure patient safety and demonstrate compliance throughout the development process, and in the clinical evaluation of benefits.
+This classification imposes stringent quality assurance requirements to ensure patient safety and demonstrate compliance throughout the development process, and in the clinical evaluation of benefits.
 
 The CDS tool’s quality assurance process must cover not only the software engine computing the recommendations, but also the medical rule set used to generate recommendations.
 
