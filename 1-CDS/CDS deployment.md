@@ -1,4 +1,4 @@
-CLINICAL DECISION SUPPORT SYSTEM (CDS) - DEPLOYMENT
+# CLINICAL DECISION SUPPORT SYSTEM (CDS) - DEPLOYMENT
 
 # Project team
 
@@ -38,6 +38,7 @@ The continuous improvement loop for knowledge components aims to deliver:
 The diagram below provides a high-level view of the dependencies between the technical deployment and the knowledge elaboration.
 
 ![](media/ffcde38ffddefdba75775f0a7c900266.png)
+
 *Figure 1- Implementation workflow overview*
 
 The following sections provide a detailed breakdown of each task involved in the implementation process.
@@ -89,6 +90,7 @@ The accumulation of rules through successive iterations may make it difficult to
 This view could be coupled with the ticketing system mentioned above.
 
 ![](media/2c6202863181d8f319603dfdbef9060e.png)
+
 *Figure 2 - Example of tracking table*
 
 ### Checking the validity of a ruleset
@@ -208,5 +210,4 @@ The EUVABECO project shared publicly the [rulesets](https://github.com/EUVABECO/
 
 ## Knowledge management procedure
 
-During the project, the **decision support rules** were developed by SYADEM medical experts, following a documented [knowledge management procedure](https://github.com/EUVABECO/implementation-plans/tree/main/1-CDS/resources/knowledge_mgt.md).
-
+During the project, the **decision support rules** were developed by SYADEM medical experts, following a documented [knowledge management procedure](Resources/knowledge_mgt.md).
