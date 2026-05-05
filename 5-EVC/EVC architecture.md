@@ -8,15 +8,15 @@ The EVC is a PDF file encompassing the three representations of the same vaccina
 
 The digital part of the document (QRCode and metadata) consists of records that are digitally signed by a signature server, belonging to a member of the WHO GDHCN and operated according to the GDHCN rules.
 
-![Une image contenant texte, capture d’écran, Police Description générée automatiquement](media/b5416aa18a7c6ff40ea1d592ef109c06.png)
+![Une image contenant texte, capture d’écran, Police Description générée automatiquement](media/EVC-sample.png)
 
-Figure 1 - Example of an EVC
+*Figure 1 - Example of an EVC*
 
 For each administered vaccine, these records include the reference to a master record, that is held by an accredited health facility in a participating MS.
 
 ![Une image contenant texte, capture d’écran, Police, cercle Description générée automatiquement](media/1a8ac3aa35328e27c72e309b92fdc6f2.png)
 
-Figure 2-EVC trust infrastructure
+*Figure 2-EVC trust infrastructure*
 
 # EVC creation workflow
 
@@ -76,19 +76,13 @@ Three settings are possible for the compacting stage:
 
 The choice among the three options has to be done from the setup of the implementation project.
 
-The compacting process is systematic and consists in converting the JSON payload to Concise Binary Object Representation (CBOR), as described in RFC8949[^1].
-
-[^1]: <https://datatracker.ietf.org/doc/html/rfc8949>
+The compacting process is systematic and consists in converting the JSON payload to Concise Binary Object Representation (CBOR), as described in [RFC8949](https://datatracker.ietf.org/doc/html/rfc8949).
 
 ## Signing the compacted data
 
 The digital part of the EVC is always signed by a signature server, belonging to a member of the WHO GDHCN and operated according to the GDHCN rules.
 
-The signature is performed according to the CBOR Object Signing and Encryption (COSE) standard and described in RFC9052[^2] and RFC9053[^3].
-
-[^2]: <https://datatracker.ietf.org/doc/rfc9052>
-
-[^3]: <https://datatracker.ietf.org/doc/rfc9053>
+The signature is performed according to the CBOR Object Signing and Encryption (COSE) standard and described in [RFC9052](https://datatracker.ietf.org/doc/rfc9052) and [RFC9053](https://datatracker.ietf.org/doc/rfc9053).
 
 ## Creating the document
 
@@ -121,4 +115,4 @@ These national components rely upon static global resources:
 
 ![Une image contenant texte, capture d’écran, diagramme, Police Le contenu généré par l’IA peut être incorrect.](media/dd0dc6ab192a91763adcf53ffce44e14.png)
 
-Figure 3- Components diagram
+*Figure 3- Components diagram*

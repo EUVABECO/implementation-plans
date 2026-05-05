@@ -43,9 +43,7 @@ Similarly, within a health jurisdiction (state or substate), there could be a si
 
 The systems used by health professionals to deliver the EVCs may be distinct from the repositories for master records. For example, these repositories could be shared across a several systems. The systems themselves will be accredited for submitting EVCs to signature; they will have to handle locally the authorisation of their using health professionals, based upon the rules set during the framing (A1).
 
-Even when a same system has the two roles of issuing system and of repository, it has different identifiers for the two roles. The identifier as a repository is a mere index within the registry, while the identifier as an issuing system is a X509 Distinguished Name[^1].
-
-[^1]: <https://datatracker.ietf.org/doc/html/rfc2459>
+Even when a same system has the two roles of issuing system and of repository, it has different identifiers for the two roles. The identifier as a repository is a mere index within the registry, while the identifier as an issuing system is a [X509 Distinguished Name](https://datatracker.ietf.org/doc/html/rfc2459).
 
 The signature servers should be deployed by the existing or intended national GDHCN participant.
 

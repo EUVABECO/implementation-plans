@@ -74,9 +74,7 @@ Because of this, the CDS falls under Article 9’s regulations on processing per
 
 ### Medical device regulation (MDR)
 
-When used by health professionals to support patient care, the CDS tool qualifies as a medical calculator under the Medical Device Regulation EU 2017/745 (MDR). The Working Group on Borderline and Classification confirmed this in the September 2023 publication of their Manual on borderline and classification for medical devices[^1].
-
-[^1]: <https://health.ec.europa.eu/system/files/2023-09/md_borderline_manual_en.pdf>
+When used by health professionals to support patient care, the CDS tool qualifies as a medical calculator under the Medical Device Regulation EU 2017/745 (MDR). The Working Group on Borderline and Classification confirmed this in the September 2023 publication of their [Manual on borderline and classification for medical devices](https://health.ec.europa.eu/system/files/2023-09/md_borderline_manual_en.pdf).
 
 The CDS tool’s classification is guided by Rule 11 of Annex VIII of the MDR. While some argue that vaccination decision tools belong in Class I (non-therapeutic), the prevailing consensus is that they should be considered Class IIa devices.
 
@@ -168,6 +166,5 @@ He has a EVC, but the hiring team is not entitled to access his medical data. Th
 
 Before his job interview, Alan uploads his EVC to the CDS platform and receives a digitally signed compliance certificate, confirming that his vaccinations meet the job requirements. He can present this certificate at his interview without disclosing additional medical information.
 
-*The same method is applicable to any situation where vaccination status is required for “administrative” purposes (according to the Medical/Administrative/Personal mapping used throughout the Vaccines-EU study[^2]).*
+*The same method is applicable to any situation where vaccination status is required for “administrative” purposes (according to the Medical/Administrative/Personal mapping used throughout the [Vaccines-EU study](https://data.europa.eu/doi/10.2925/236134).*
 
-[^2]: <https://data.europa.eu/doi/10.2925/236134>

@@ -6,9 +6,7 @@
 
 ### Operational
 
-To ensure trust in the recommendations delivered by the CDS, a credible and functioning National Immunization Technical Advisory Group (NITAG) is essential. NITAGs provide the scientifically grounded recommendations that are endorsed by health authorities. The NITAG Maturity Assessment Tool[^1].developed by the Global NITAG Network (GNN) in collaboration with the Centres for Disease Control and Prevention, the World Health Organization and the Task Force for Global Health, provides a solid framework for assessing the credibility of NITAGs. This tool evaluates NITAGs across seven indicators:
-
-[^1]: [https://www.nitag-resource.org/external/nmat/\#/](https://www.nitag-resource.org/external/nmat/#/)
+To ensure trust in the recommendations delivered by the CDS, a credible and functioning National Immunization Technical Advisory Group (NITAG) is essential. NITAGs provide the scientifically grounded recommendations that are endorsed by health authorities. The [NITAG Maturity Assessment Tool](https://www.nitag-resource.org/external/nmat/) developed by the Global NITAG Network (GNN) in collaboration with the Centres for Disease Control and Prevention, the World Health Organization and the Task Force for Global Health, provides a solid framework for assessing the credibility of NITAGs. This tool evaluates NITAGs across seven indicators:
 
 1.  Its formal existence, with written rules on its composition, a diversity of expertise and clear membership rules.
 2.  Transparency and independence of members.

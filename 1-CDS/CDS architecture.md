@@ -4,16 +4,12 @@ The CDS consists of two key components: a software engine and datasets represent
 
 Any flaw in these components could result in inaccurate recommendations. To comply with MDR regulations, one entity must manage both the software and the embedded knowledge with secure, controlled processes. To ensure security and continuous updates, the CDS must be provided as a managed service by a CDS provider, who will handle updates in line with changing rules.
 
-The provider is responsible for integrating knowledge into the system, using various technical methods (e.g., hardcoded logic, parametrization, rules engines) and operational processes. Even if a health authority provides a digitized recommendation, such as the CDSi[^1] provided by the US CDC, the CDS provider remains accountable for the system’s integrity.
-
-[^1]: https://www.cdc.gov/vaccines/programs/iis/cdsi.html
+The provider is responsible for integrating knowledge into the system, using various technical methods (e.g., hardcoded logic, parametrization, rules engines) and operational processes. Even if a health authority provides a digitized recommendation, such as the [CDSi](https://www.cdc.gov/vaccines/programs/iis/cdsi.html) provided by the US CDC, the CDS provider remains accountable for the system’s integrity.
 
 Managing the system centrally, rather than distributing software to individual health facilities, simplifies the update process. This is the approach taken in this plan. However, the CDS service will be accessed by users through client software, which will generate requests, submit them to the CDS, and receive justified recommendations in response. For client systems to communicate effectively with the CDS, they must use a common vocabulary, specifically:
 
--   **Administered vaccines**: In the scope of this project, we will use the NUVA[^2] terminology also applied for the EVC.
+-   **Administered vaccines**: In the scope of this project, we will use the [NUVA](https://nuva.syadem.com/) terminology also applied for the EVC.
 -   **Patient profiles (HALO conditions):** Health, Age, Living conditions and Occupation (HALO) profile relevant to vaccination rules.
-
-[^2]: https://nuva.syadem.com/
 
 Terminology servers will be publicly available to ensure the consistent use of these terms between the CDS and client systems.
 
@@ -30,6 +26,5 @@ In this architecture, the CDS is a stateless server, meaning it does not retain 
 -   **Personal data protection:** Since all data is transient and no directly identifying information is submitted, personal data protection is enhanced. Only the patient’s characteristics and vaccination history are relevant for the CDS's operations.
 -   **Simplified support and maintenance:** A generic system can be adapted to different contexts, making it easier to maintain and support across diverse use cases.
 
-It was retained as the preferred solution by the HL7 Immunization Focus Group, a subgroup of the HL7 Public Health Workgroup, in the elaboration of an implementation guide for the protocol between the Client system and the CDS (ImmDS+HALO draft)[^3].
+It was retained as the preferred solution by the HL7 Immunization Focus Group, a subgroup of the HL7 Public Health Workgroup, in the elaboration of an implementation guide for the protocol between the Client system and the CDS ([ImmDS+HALO draft](https://confluence.hl7.org/spaces/PHWG/pages/413254075/ImmDS+HALO+-+IG+First+Pass+Draft))
 
-[^3]: <https://confluence.hl7.org/spaces/PHWG/pages/413254075/ImmDS+HALO+-+IG+First+Pass+Draft>
