@@ -106,15 +106,7 @@ Each EHR supplier for a client system should now perform its own integration of 
 
 ## C3 – Verification of compliance
 
-Compliant implementations must be able to read EVCs provided from any other compliant system, and to write EVCs that can be read from other systems.
-
-Compliance is verified through a verification process consisting of:
-
--   Reading in an imposed sequence a set of reference EVCs for several test patients
--   Adding to these patients an imposed set of vaccines
--   Creating the corresponding EVCs and testing them against the expected results
-
-The test suite, with the set of reference EVCs, the list of vaccines to add and a checking tool to compare the produced EVCs with the expected results, is provided as a resource by the EUVABECO project.
+Compliant implementations must be able to read EVCs provided from any other compliant system, and to write EVCs that can be read from other systems. This is documented in the [Verification](EVC%20verification.md) module.
 
 # Typical planning
 

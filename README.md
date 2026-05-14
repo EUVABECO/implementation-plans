@@ -7,3 +7,7 @@ This repository contains the implementation plans for the 5 EUVABECO tools:
 1. [European vaccination card](5-EVC/README.md)
 
 Each implementation plan is complemented with supporting resources for implementers.
+
+
+*The EUVABECO project was co-funded by the European Union. Views and opinions expressed are however those of the author(s) only and do not necessarily reflect those of the European Union or HaDEA. Neither the European Union nor the granting authority can be held responsible for them.*
+![](media/9a0a5756c055ca669f208ad9d597034b.jpeg)
