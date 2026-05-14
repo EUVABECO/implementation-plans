@@ -127,7 +127,7 @@ Compliant implementations must be able to read EVCs provided from any other comp
   + [Detailed specification of the EVC digital content](https://github.com/IVC-NUVA/CLVR)
   + [Publication of NUVA terminology](https://github.com/IVC-NUVA/NUVA)
   + [Reference implementation for a signature server](https://github.com/EUVABECO/signer)
-  + [Implementation of an EVC scanner (source)](https://github.com/EUVABECO/evc_scan>)
+  + [Implementation of an EVC scanner (source)](https://github.com/EUVABECO/evc_scan)
   + [EVC scanner exposed ](https://evc.euvabeco.eu)
   + [Standalone encoder and decoder  ](https://github.com/EUVABECO/EVC-generator)
   + [Alternative keystore (documentation)](Resources/Keystore.md)
