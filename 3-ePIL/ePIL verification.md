@@ -1,6 +1,6 @@
 # ELECTRONIC PATIENT INFORMATION LEAFLET (ePIL) - VERIFICATION
 
-## Verification of the trusted directory
+# Verification of the trusted directory
 
 The points to be checked are:
 
@@ -13,7 +13,7 @@ Yet, this verification may be generic to the institutional server presenting the
 
 The correct format of the references file is checked indirectly through the correct generation of the redirection server configuration.
 
-## Verification of the redirection server
+# Verification of the redirection server
 
 The points to be checked are:
 
@@ -24,7 +24,7 @@ Serving static redirections is a very lightweight process. An overload of the re
 
 If the redundancy is implemented within the ePIL infrastructure, failure scenarios should be tested. If it relies upon an external CDN service, the performance of the CDN provider should be assessed by long-term monitoring data.
 
-## Verification of the access tools
+# Verification of the access tools
 
 For each access tool, the verification process should include:
 

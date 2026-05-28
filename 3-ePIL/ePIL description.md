@@ -1,15 +1,18 @@
 # ELECTRONIC PATIENT INFORMATION LEAFLET (ePIL) - FUNCTIONAL DESCRIPTION
+
+# Description of the tool
+
 *This section provides a functional overview of the intended tool and its usage. It outlines the goals and features without referring to any specific implementation.*
 
 ## Objectives
 
 *This section is the overall rationale for the tool.*
 
-The ePIL allows to provide to EU citizens detailed information about a vaccine, including administration, precautions and potential side effects, in an electronic format. This information must be available from the vaccine package, replacing the paper-based information leaflet. It should be also available from the designation of a vaccine that was administered in the past or could be administered in the future.
+The ePIL allows to provide to citizens detailed information about a vaccine, including administration, precautions and potential side effects, in an electronic format. This information must be available from the vaccine package, replacing the paper-based information leaflet. It should be also available from the designation of a vaccine that was administered in the past or could be administered in the future.
 
-The availability of an ePIL secures the accuracy and timeliness of the delivered information. If used as a replacement for the paper PIL, it facilitates the transfer of vaccine products between different health jurisdictions, allows to reduce wasted packages, optimizes storage and refrigeration.
+The availability of an ePIL secures the accuracy and timeliness of the delivered information. If used as a replacement for the paper PIL, it facilitates the transfer of vaccine products between different health jurisdictions, allows to reduce wasted packages, optimises storage and refrigeration.
 
-Making the patient information easily accessible from routinely used patient portals is a factor of transparency and trust.
+Making the patient information easily accessible using routinely used patient portals is a factor of transparency and trust.
 
 ## Involved stakeholders and their expectations
 
@@ -28,11 +31,11 @@ For the successful implementation of the ePIL, various stakeholders play crucial
 
 ### Citizens/Patients
 
-Individuals who receive, access, and use the ePIL expect easy access to accurate and timely information about their medicinal products, user-friendly interfaces and multilingual information.
+Individuals who receive, access and use the ePIL expect easy access to accurate and timely information about their medicinal products, user-friendly interfaces and multilingual information.
 
 ### Healthcare Professionals (HCPs)
 
-HCPs, including hospital practitioners, general practitioners, pharmacists, and nurses, who administer vaccines and provide trustworthy information to the public, expect efficient systems to access and deliver ePILs, potentially integrated with existing electronic health records (EHRs) and prescribing systems, and assurance that the ePILs are up-to-date and accurate. HCPs that administer vaccines can vary among EU Member States.
+HCPs, including hospital practitioners, general practitioners, pharmacists and nurses, who administer vaccines and provide trustworthy information to the public, expect efficient systems to access and deliver ePILs, potentially integrated with existing electronic health records (EHRs) and prescribing systems, and assurance that the ePILs are up-to-date and accurate. HCPs that administer vaccines can vary among EU Member States.
 
 ### National Competent Authority (NCA)
 
@@ -40,7 +43,7 @@ NCAs, primarily responsible for the authorisation of medicinal products availabl
 
 ### European Medicines Agency (EMA)
 
-The EMA, overseeing the centralised marketing authorisation procedure, expects ePILs to meet EU standards for quality, safety, and efficacy. The EMA oversees regulatory standards and manages its [database for centrally approved medicinal products](https://www.ema.europa.eu/en/medicines). It is also responsible for the [Product Lifecycle Management (PLM) Portal](https://plm-portal.ema.europa.eu/), the pilot project that includes hosting and accessing ePILs.
+The EMA, overseeing the centralised marketing authorisation procedure, expects ePILs to meet EU standards for quality, safety and efficacy. The EMA oversees regulatory standards and manages its [database for centrally approved medicinal products](https://www.ema.europa.eu/en/medicines). It is also responsible for the [Product Lifecycle Management (PLM) Portal](https://plm-portal.ema.europa.eu/), the pilot project that includes hosting and accessing ePILs.
 
 ### European Commission (EC)
 
@@ -52,7 +55,7 @@ Vaccine manufacturers seek streamlined regulatory processes for incorporating eP
 
 ### Electronic Health Record (EHR) Suppliers
 
-EHR suppliers, providing digital systems for storing and managing patient health records, expect solutions for seamless ePIL integration. This implies that reliable ePIL directories for the vaccines authorized in a given health jurisdiction are available in a standardized format.
+EHR suppliers, providing digital systems for storing and managing patient health records, expect solutions for seamless ePIL integration. This implies that reliable ePIL directories for the vaccines authorised in each health jurisdiction are available in a standardised format.
 
 ### e-Health Infrastructure Operators
 
@@ -100,6 +103,8 @@ The national marketing authorisation procedures consist of the decentralised pro
 
 ![Une image contenant texte, capture d’écran, Police, nombre Le contenu généré par l’IA peut être incorrect.](media/43796905771c6a94c7edf1cfa4abd184.png)
 
+Figure 1 - EU Marketing Authorisation Procedures
+
 ### Implications for the ePIL Implementation
 
 According to EU legislation, namely Regulation (EEC) No 2309/93 and Regulation (EC) 726/2004, new vaccines must go through the centralised procedure to obtain marketing authorisation in EU. However, some existing vaccines that obtained marketing authorisation before this legislation was in place were approved via national marketing authorisation procedures (including DCP and MRP) and continue this pathway for marketing authorisation maintenance. Therefore, when looking for trustful source of the patient information leaflet content, both the EMA and the NCAs websites need to be consulted.
@@ -120,29 +125,38 @@ In conclusion, while the implementation of ePILs offers significant benefits in 
 
 *The following use cases illustrate how different stakeholders can use the CDS tool to meet their expectations. Each scenario demonstrates a specific function of the tool.*
 
-### UC01 - Fetching the ePIL from an online repository
+### UC01 - Accessing the ePIL from an online repository
+
+Use Case for a Centrally Approved Vaccine
 
 Lisa and Daniel are a young couple living in EU-country B, though they are originally from EU-country A. With a young child due for vaccinations, they want to ensure they have accurate information about the vaccines their child will receive, in their native language. Lisa and Daniel use the search function on the [EMA's database for centrally approved medicinal products](https://www.ema.europa.eu/en/medicines) to find the meningococcal group B vaccine "XYZ". The patient information leaflet is available in the Product Information section and can be accessed in all EU languages, including Lisa and Daniel's native language from country A. This allows them to access and understand the most up-to-date and accurate information about the vaccine their child will receive.
 
 ![Une image contenant texte, capture d’écran, logiciel, Police Le contenu généré par l’IA peut être incorrect.](media/1750952776e02d23c6152ed5438dc4b6.png)
 
+Figure 2 - Search EMA database for vaccine "XYZ"
+
 ![Une image contenant texte, capture d’écran, logiciel, Icône d’ordinateur Le contenu généré par l’IA peut être incorrect.](media/3042888f8d0e79876eaa05cd95b2b611.png)
 
--   Use Case for a Nationally Approved Vaccine
+Figure 3 - ePILs available in all EU languages on EMA database
+
+Use Case for a Nationally Approved Vaccine
 
 Maria, a resident of EU-country A, is on holiday in EU-country B when she is bitten by an animal. She is promptly administered a rabies vaccine "XYZ" by a local doctor. However, the paper leaflet accompanying the vaccine is in the local language of country B, which Maria does not understand. To find reliable information, Maria visits the EMA’s website and navigates to the list of [National Registers of Authorised Medicines](https://www.ema.europa.eu/en/medicines/national-registers-authorised-medicines). She selects the link for her home country, which takes her to her national health authority’s website. There, she uses the search function to find the rabies vaccine "XYZ" and accesses the patient information leaflet in her native language, allowing her to review the latest information on the vaccine’s precautions and potential side effects with confidence.
 
 ![Une image contenant texte, capture d’écran, logiciel, Police Le contenu généré par l’IA peut être incorrect.](media/a2a14b1f692c7b01da59721eb2d02cd9.png)
 
+Figure 4 - EMA's list of national registers of authorised medicines
+
 ### UC02 - Change of Leaflet Content
 
-Vaccine manufacturer ABC produces the COVID-19 vaccine "XYZ," which has been centrally approved by the EMA. Due to the ongoing COVID-19 pandemic, ABC has received an exemption allowing the patient information leaflet to be accessed by scanning a Datamatrix code on the vaccine’s outer packaging, instead of providing a paper leaflet. ABC gathers more data on the vaccine and needs to amend the information on the vaccine’s potential side effects in the patient information leaflet. Rather than reprinting paper leaflets—a process that could delay distribution and cause vaccine shortages—ABC submits a request via Variation administrative procedure to the EMA to update the content of the digitally available patient information leaflet for vaccine “XYZ” across all EU languages. The EMA processes this request, ensuring that citizens/patients and healthcare professionals have immediate access to the most current and accurate vaccine information, simply by scanning the Datamatrix code on the packaging.
+Vaccine manufacturer ABC produces the COVID-19 vaccine "XYZ," which has been centrally approved by the EMA. Due to the ongoing COVID-19 pandemic, ABC has received an exemption allowing the patient information leaflet to be accessed by scanning a code, such as a datamatrix code, on the vaccine’s outer packaging, instead of providing a paper leaflet. ABC gathers more data on the vaccine and needs to amend the information on the vaccine’s potential side effects in the patient information leaflet. Rather than reprinting paper leaflets—a process that could delay distribution and cause vaccine shortages—ABC submits a request via Variation administrative procedure to the EMA to update the content of the digitally available patient information leaflet for vaccine “XYZ” across all EU languages. The EMA processes this request, ensuring that citizens/patients and healthcare professionals have immediate access to the most current and accurate vaccine information.
 
-### UC03 – Accessing from an administered vaccine record
+### UC03 – Accessing the ePIL from an Administered Vaccine Record
 
-Mark has received a vaccine one week ago and is worried about a erythema on his arm. He connects to the national immunization information system where his vaccination history is recorded, selects the administered vaccine and the notice in his own language.
+Mark has received a vaccine one week ago and is worried about an erythema on his arm. He connects to the national immunisation information system where his vaccination history is recorded, selects the administered vaccine and the notice in his own language.
 
-He can see there that this is a known and benign adverse event following immunization.
+He can see there that this is a known and benign adverse event following immunisation.
 
 ![](media/ba28580d4422323ba59fab8d7c000868.png)
 
+Figure 5 - Luxembourg IIS portal with ePIL links

@@ -1,10 +1,10 @@
-# ELECTRONIC PATIENT INFORMATION LEAFLET (ePIL)  - DEPLOYMENT
+# ELECTRONIC PATIENT INFORMATION LEAFLET (ePIL) - DEPLOYMENT
 
 # Project team
 
 The project team will consist of:
 
--   NCA representants, for the feeding process and possibly updates to their own information system.
+-   NCA representative, for the feeding process and possibly updates to their own information system.
 -   Software developers for the customer facing tools
 -   Technical team for the infrastructure
 -   A legal advisor for establishing the needed contracts
@@ -17,7 +17,7 @@ The project team should then:
 
 -   Determine the instantiated architecture
 -   Implement the trusted directory of references
--   Organise its maintenance by the National competent authority
+-   Organise its maintenance by the National Competent Authority
 -   Implement the redirection server
 -   Implement the tools for access by citizens
 
@@ -25,11 +25,11 @@ The project team should then:
 
 The team should make decisions:
 
--   The online location for the public exposition of the machine-readable format for the references. This is a simple static file, that should be made freely available online to any consuming tool. Yet, this content must be secured against unauthorised modification or fraudulent substitution.
+-   The online location for the public exposition of the machine-readable format for the references. This is a simple static file that should be made freely available online to any consuming tool. Yet, this content must be secured against unauthorised modification or fraudulent substitution.
 -   The access control mechanisms, making sure that only accredited individuals or systems from the NCA can update the references.
 -   The process for the accredited individuals or systems to perform this update.
 -   The technology and the base URL for the redirection server, as well as the automated process to configure it from the references file.
--   The mechanisms proposed to citizens to access to the ePIL. The three access modes listed in the architecture module (from the vaccine package, from personal health records, or from a list of authorized vaccines) should be considered.
+-   The mechanisms proposed to citizens to access to the ePIL. The three access modes listed in the architecture module (from the vaccine package, from personal health records or from a list of authorised vaccines) should be considered.
 
 The use of indirect references, for example in the case of centrally approved projects, requires that redirection servers also exist for the originating health jurisdictions. Rather than relying upon such servers provided by others, it is suggested that the redirection server should also generate the redirection maps based upon the references file of the originating health jurisdiction.
 
@@ -37,7 +37,7 @@ If such a reference file does not exist yet, the team could decide to temporaril
 
 ## Implement the trusted directory of references
 
-The trusted directory of references for a country is a single, static file that can be exposed from any robust institutional website. The implementation will consist in:
+The trusted directory of references for a country is a single, static file that can be exposed from any robust institutional website. The implementation will consist of:
 
 -   Building a first version of the file, based upon the currently authorised vaccines and the relevant documents identified by the NCA.
 -   Determining a feeding process to expose this file on the institutional website.
@@ -49,11 +49,11 @@ Submitting a new file should be subject to an authentication with an accredited 
 
 ## Organise the maintenance of references
 
-The updating of references must be a built-in process within the existing marketing authorization process.
+The updating of references must be a built-in process within the existing marketing authorisation process.
 
 The reference files are in an explicit format (YAML) that can be easily edited by hand, but it could be interesting for routine use to include their update into the production tools of the NCA.
 
-It is also possible to allow the vaccine manufacturer themselves to expose their own redirection servers, and to reference these from the references file of the implementing Member State.
+It is also possible to allow the vaccine manufacturer themselves to expose their own redirection servers and to reference these from the references file of the implementing Member State.
 
 The organisation of the maintenance of references can then adopt several approaches:
 
@@ -63,30 +63,26 @@ The organisation of the maintenance of references can then adopt several approac
 
 ## Implement the redirection server
 
-The redirection server replies to requests according to standardized format, such as:
+The redirection server replies to requests according to standardised format, such as:
 
 <https://epil.euvabeco.eu/EUE/VAC0005/1/ePIL/fr>
 
 by a redirection to the associated resource, that is either the ePIL document by itself or a standardised URL towards another redirection server.
 
-It does not imply software development, but only the configuration of a Web server with redirection rules. The redirection server does not have to expose any content on its own, and avoiding such expositions will secure it against most cyberattacks.
+It does not imply software development, but only the configuration of a web server with redirection rules. The redirection server does not have to expose any content on its own and avoiding such expositions will secure it against most cyberattacks.
 
 The configuration file can be generated automatically from the references file. An [example implementation](https://github.com/EUVABECO/epil/blob/main/.github/workflows/generate-htaccess.yml) generating a configuration for an Apache server is shared with the build resources.
 
 Thus, the setup of the redirection server only requires:
 
--   To implement the generation of the Web server configuration
--   To expose a faceless Web server, with an automated update of its configuration from the generated Web server configuration.
+-   To implement the generation of the web server configuration.
+-   To expose a faceless web server, with an automated update of its configuration from the generated web server configuration.
 
 Such a server has been implemented for the EUVABECO project, serving redirections from references files for Belgium, France, Luxembourg, Latvia, Poland and centrally approved vaccines with the base URL <https://epil.euvabeco.eu>
 
 ## Implement the tools for access by the citizens
 
-In all three access modes, the ePIL is exposed through a Web browser, either integrated into the application used by the citizen or invoked from this application. This browser has to support redirection and should preferably be able to display of PDF documents.
-
-The difference between the access modes only lies into the way the used reference is identified.
-
-When reading from the package, the application should have access to a map between the DCI included in the DataMatrix and the vaccine product identification. This mapping can only be established by the vaccine manufacturer. This information is already transmitted to the Medicines Verification Organisation instituted by the Falsified Medicines Directive, but its use for referencing the ePIL has no legal basis so far.
+In all three access modes, the ePIL is exposed through a web browser, either integrated into the application used by the citizen or invoked from this application. This browser has to support redirection and should preferably be able to display of PDF documents.
 
 When reading from a health record of administered or prescribed vaccines, the mapping from the codes used within the application and the vaccine product code used in the standardised reference relies upon the NUVA alignment files, also used to populate the EVC.
 
