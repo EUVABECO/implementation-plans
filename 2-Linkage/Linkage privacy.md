@@ -3,13 +3,13 @@
 # Purpose
 This document provides the necessary information for a data protection officer to assess the adequacy of a data linkage implementation with the requirements of the General Data Protection Regulation (GDPR) or any equivalent regulation for the protection of personal data.
 
-It relies upon the data linkage architecture hypotheses that are documented in [Module 08 – *Tool architecture*](Linkage%20Architecture). For implementations that would deviate from these hypotheses, an alternative data flow would need to be developed.
+It relies upon the data linkage architecture hypotheses that are documented in [Module 08 – *Tool architecture*](Linkage%20Architecture.md). For implementations that would deviate from these hypotheses, an alternative data flow would need to be developed.
 
 # Characterization of the processing
 
 ## Purpose of processing
 
-The implementation of a linkage process relies on the use of individual-level data, which poses a significant risk to data security if not adhered to certain standards. If these standards are not met, data linkage should not be implemented. The purpose of data linkage is to integrate a minimum of 2 data sources from pre-existing registers or databases, thereby reducing the need for new data collections. Data linkage can serve different purposes, as defined in [Module 02 – *Description*](Linkage%20description).
+The implementation of a linkage process relies on the use of individual-level data, which poses a significant risk to data security if not adhered to certain standards. If these standards are not met, data linkage should not be implemented. The purpose of data linkage is to integrate a minimum of 2 data sources from pre-existing registers or databases, thereby reducing the need for new data collections. Data linkage can serve different purposes, as defined in [Module 02 – *Description*](Linkage%20description.md).
 
 ## Responsibilities
 
@@ -33,7 +33,7 @@ The nature of the processed data varies depending the purpose of the data linkag
 
 ## Legal basis
 
-As identified in [Module 04 – *Prerequisites*](Linkage%20prerequisites), the implementation of the data linkage process must have a valid legal basis complying with all applicable national and European legal frameworks (specifically GDPR Art. 6(1)(e) for public task, Art. 9(2)(h) for public health, or Art. 9(2)(j) for scientific research).
+As identified in [Module 04 – *Prerequisites*](Linkage%20prerequisites.md), the implementation of the data linkage process must have a valid legal basis complying with all applicable national and European legal frameworks (specifically GDPR Art. 6(1)(e) for public task, Art. 9(2)(h) for public health, or Art. 9(2)(j) for scientific research).
 
 Specific set of laws, regulations (GDPR, national, regional and/or local laws) and guidelines must be in place to address circumstances as :
 
