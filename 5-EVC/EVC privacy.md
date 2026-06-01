@@ -128,9 +128,6 @@ The digital signature of the EVC precludes any modification of data.
 
 The alteration of data could result into the recommendation of a contraindicated vaccine, or the absence of recommendation for an indicated vaccine, possibly resulting in a delayed vaccination.
 
-The impact of the administration of a contraindicated vaccine can be severe, but vaccines are administered by health professionals that are trained and responsible for checking all adverse conditions before performing a medical act. So globally the impact of unwanted modification of data can be considered as limited.
-
-Since the data is not retained by the CDS, the alteration would have to be done on the fly, either by intervening on data in transfer or with a man-in-the middle attack. The measures of encryption of data in transfer and authentication of the CDS server make this risk extremely unlikely.
 
 #### Data disappearance
 

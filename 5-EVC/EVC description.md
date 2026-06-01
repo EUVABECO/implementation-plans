@@ -108,14 +108,6 @@ Contrary to the other tools in EUVABECO, the EVC is relevant only if it is imple
 
 The trust in EVCs should rely upon the GDHCN, a common repository of acceptable signatures curated by the WHO. The digital signatures operators must comply with the GDHCN rules.
 
-By October 26h, 2025, among the 27 EU MS:
-
--   16 were already fully onboarded in GDHCN: Belgium, Cyprus, Czechia, Estonia, Finland, France, Ireland, Latvia, Lithuania, Malta, Netherlands, Slovakia, Slovenia, Spain, Poland and Portugal.
--   5 were onboarding: Croatia, Greece, Hungary, Luxembourg and Sweden.
--   6 were still to apply: Austria, Bulgaria, Denmark, Germany, Italy and Romania.
-
-Worldwide, there were then 82 participants.
-
 # Constraints
 
 *Constraints are the non-functional requirements on the tool. They do not correspond to a function to be performed by the tool but not respecting them would impair the viability of the tool.*

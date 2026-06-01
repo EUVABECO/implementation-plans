@@ -12,6 +12,8 @@ The Member State must have a digital signature operator belonging to the GDHCN.
 
 Each entity keeping the master records must be entitled to keep them for the lifetime of the regarded persons, regardless of whether these persons had still interactions with the entity. This may be an exception to the MS general rule regarding the archiving of health records, stating that vaccination master records should be kept until an age where death is certain. Such exceptions already exist for blood derived products or received radiations.
 
+Yet, these long-term records, used only when investigating an abnormal situation, do not need to be kept into an active database. Health facilities generally keep intermediate records, accessible only from a dedicated archive management interface. 
+
 ## Political
 
 ### Opposition to the principle of the EVC
