@@ -18,7 +18,7 @@ Yet, these long-term records, used only when investigating an abnormal situation
 
 ### Opposition to the principle of the EVC
 
-Due to the Digital Covid Certificate precedent, there is a vocal minority opposed to the EVC, ignoring all the differences between a voluntary, home-based personal health record and a mandatory document driving rights under a centralized control. This minority should not be influent enough to block the execution of the project.
+Due to the Digital Covid Certificate precedent, there is a vocal minority opposed to the EVC, ignoring all the differences between a voluntary, home-based personal health record and a mandatory document driving rights under a centralized control. This minority should not be influential enough to block the execution of the project.
 
 ### Reluctance of the EHR suppliers
 

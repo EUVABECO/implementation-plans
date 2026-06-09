@@ -28,7 +28,7 @@ Creating this digital part requires three stages:
 
 ## Collating the data
 
-The EVC is always produced from a system operated by an accredited health professional. This could be a centralized IIS for a country or a region, or his local EHR application.
+The EVC is always produced from a system operated by an accredited health professional. This could be a centralized IIS for a country or a region, or their local EHR application.
 
 This system can obtain the vaccine administration events from an already existing EVC, or from its own data if the vaccine was administered or registered locally, or from connected trusted repositories such as a national IIS.
 
@@ -71,7 +71,7 @@ The minimal identity traits for identity check by the health professional (famil
 Three settings are possible for the compacting stage:
 
 -   It is performed locally by the health professional system. It is the most protective of personal data, since only an unidentifiable hash of the compacted data is sent to the signature server, but also the most complex and costly for the EHR supplier.
--   It is performed centrally by the entity owning the signature server, based upon a transmission of the collated data. This is relevant is this authority is bound to the health authority.
+-   It is performed centrally by the entity owning the signature server, based upon a transmission of the collated data. This is relevant if this authority is bound to the health authority.
 -   It is performed by an intermediate entity, acting on behalf of the health authority but hiding the health data from the signing entity.
 
 The choice among the three options has to be done from the setup of the implementation project.

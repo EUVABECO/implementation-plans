@@ -3,7 +3,7 @@
 # Governance
 ## Maintenance of the registry
 
-Within each health jurisdiction, new repositories can be deployed, existing repositories can be merged or contact persons for repositories may change. It belongs to the local health authority curating the registry to attribute an identifier to each new repository and manage the contact list for existing ones. A [registry management guide](https://github.com/EUVABECO/implementation-plans/blob/main/5-EVC/Resources/Registry%20management.md) has been released by the EUVABECO project.
+Within each health jurisdiction, new repositories can be deployed, existing repositories can be merged or contact persons for repositories may change. It is the responsibility of the local health authority curating the registry to attribute an identifier to each new repository and manage the contact list for existing ones. A [registry management guide](https://github.com/EUVABECO/implementation-plans/blob/main/5-EVC/Resources/Registry%20management.md) has been released by the EUVABECO project.
 
 ## Maintenance of the software applications
 
@@ -47,10 +47,10 @@ Unlike the EU Digital Covid Certificate, the EVC is not intended to be used as a
 
 # Communication
 
-The EVC is an equivalent of the existing paper vaccination cards and should be proposed in every context where the paper card was already used. This can be achieved through the same channels that distributed bland paper cards to health professionals.
+The EVC is an equivalent of the existing paper vaccination cards and should be proposed in every context where the paper card was already used. This can be achieved through the same channels that distributed blank paper cards to health professionals.
 
 Also, the primary use of the EVC being international mobility, it could be proposed in the context of travels, such as when a person requires a European Health Insurance Card.
 
-It can also be promoted first towards specific populations moving frequently within the country or across Europe, such as militaries, truck drivers, seasonal workers, ships crews, etc.
+It can also be promoted first towards specific populations moving frequently within the country or across Europe, such as militaries, truck drivers, seasonal workers, ship crews, etc.
 
 The EVC will also be pulled by value added services using the vaccination history, and typically the Clinical Decision Support Systems (CDS) dedicated to vaccination, either proposed to the general population or to health professionals.

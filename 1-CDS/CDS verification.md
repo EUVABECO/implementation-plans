@@ -1,6 +1,6 @@
 # CLINICAL DECISION SUPPORT SYSTEM (CDS) - VERIFICATION
 
-The CDS, as a software used for prevention of disease, is submitted to the EU 2016/45 regulation on medical devices. This is confirmed by the Manual on borderline and classification for medical devices, where it falls under the category of medical calculators.
+The CDS, as a software used for prevention of disease, is submitted to the EU 2016/45 regulation on medical devices. This is confirmed by the [Manual on borderline and classification for medical devices](https://health.ec.europa.eu/system/files/2023-09/md_borderline_manual_en.pdf), where it falls under the category of medical calculators.
 
 As such, it is submitted to stringent verification rules before release to production.
 

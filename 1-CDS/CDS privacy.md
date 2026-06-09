@@ -2,7 +2,7 @@
 
 # Purpose
 
-This document provides the necessary information for a data protection officer to assess the adequacy of a vaccination CDS implementation with the requirements of the European Global Data Privacy Regulation (GDPR), or any equivalent regulation for the protection of personal data.
+This document provides the necessary information for a data protection officer to assess the adequacy of a vaccination CDS implementation with the requirements of the European General Data Protection Regulation (GDPR), or any equivalent regulation for the protection of personal data.
 
 It relies upon the CDS architecture hypothesis that are documented in Module 8 – CDS tool architecture. For an implementation that would deviate from these hypotheses a specific study would be needed.
 

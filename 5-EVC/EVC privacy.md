@@ -4,7 +4,7 @@
 
 This document provides the necessary information for a data protection officer to assess the adequacy of an EVC implementation with the requirements of the European Global Data Privacy Regulation (GDPR), or any equivalent regulation for the protection of personal data.
 
-It relies upon the EVC architecture hypothesis that are documented in Module 8 – EVC tool architecture. For an implementation that would deviate from these hypotheses a specific study would be needed.
+It relies upon the EVC architecture hypotheses that are documented in Module 8 – EVC tool architecture. For an implementation that would deviate from these hypotheses a specific study would be needed.
 
 # Identification of the processing
 
@@ -33,7 +33,11 @@ Yet, its digital signature may also suggest its use as a vaccination proof for a
 
 Such a use for the EVC should have a specific legal basis. Moreover, in such a case the required proof should not be the EVC by itself, with the full history of administered vaccinations, but a minimized vaccination certificate, delivered by a decision support system on the basis of the EVC content, limited to a binary statement of compliance with a predefined set of rules.
 
-The definition of how such a vaccination certificate could be derived from the vaccination card was not in the scope of the EUVABECO project. Yet chapter 4 details considerations on the personal data protection for such a use.
+The definition of how such a vaccination certificate could be derived from the vaccination card was not in the scope of the EUVABECO project. Yet one should consider that providing a full vaccination history only to assess for the compliance to a vaccination obligation is:
+
+-   Not compliant with the principle of data minimization.
+-   Not easily interpretable by the authority receiving the information.
+-   Not sufficient in cases where other information, such as past infections or test results, are needed to assess the immunity status.
 
 # Processing to deliver an EVC
 
@@ -116,7 +120,7 @@ Regarding the signature process, this could be caused by:
 
 Among the mitigation measures listed below, the relevant ones are the encryption of data in transfer, the authentication of the signature server, the traceability of changes, and personnel management rules.
 
-If these mitigation measures are applied consistently, the likelihood if the risk is extremely low.
+If these mitigation measures are applied consistently, the likelihood of the risk is extremely low.
 
 Regarding the divulgation of the EVC after its delivery, with such scenarios as compromission of an e-mail sent by the HCP or of an EVC stored into a public cloud, the level of risk is the same with an EVC as with any personal document. Modern content analysis tools do not need a structured content for retrieving the information.
 
@@ -125,9 +129,6 @@ Regarding the divulgation of the EVC after its delivery, with such scenarios as 
 The alteration of data may result in inadequate further vaccinations, or possibly a delayed reaction if a patient was infected with a disease when pretendedly vaccinated, with a limited impact. Still, this is much more probable without an EVC.
 
 The digital signature of the EVC precludes any modification of data.
-
-The alteration of data could result into the recommendation of a contraindicated vaccine, or the absence of recommendation for an indicated vaccine, possibly resulting in a delayed vaccination.
-
 
 #### Data disappearance
 

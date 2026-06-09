@@ -23,7 +23,7 @@ In this architecture, the CDS is a stateless server, meaning it does not retain 
 
 -   **Scalability:** More CDS server instances can be added behind a load balancer to handle increasing client requests, with each request routed to a different server.
 -   **Resilience**: Multiple CDS server instances can be distributed across different locations, improving reliability in case of server or connectivity failures.
--   **Personal data protection:** Since all data is transient and no directly identifying information is submitted, personal data protection is enhanced. Only the patient’s characteristics and vaccination history are relevant for the CDS's operations.
+-   **Personal data protection:** Only the patient’s profile (HALO conditions) and vaccination history are relevant for the CDS's operations. Since all data is transient and no directly identifying information is submitted, personal data protection is enhanced. 
 -   **Simplified support and maintenance:** A generic system can be adapted to different contexts, making it easier to maintain and support across diverse use cases.
 
 It was retained as the preferred solution by the HL7 Immunization Focus Group, a subgroup of the HL7 Public Health Workgroup, in the elaboration of an implementation guide for the protocol between the Client system and the CDS ([ImmDS+HALO draft](https://confluence.hl7.org/spaces/PHWG/pages/413254075/ImmDS+HALO+-+IG+First+Pass+Draft))

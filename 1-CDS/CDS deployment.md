@@ -69,7 +69,7 @@ During this task, the methods used for collaboration between the MS immunization
 An iteration over the ruleset is characterized by:
 
 -   A list of target diseases (e.g. – Influenza and COVID-19)
--   A list of HALO factors to be considered (e.g. – Elder people, immuno-compromised patients)
+-   A list of HALO factors to be considered (e.g. – Older people, immuno-compromised patients)
 
 It must be expressed unambiguously at the start of each iteration.
 
@@ -124,7 +124,7 @@ This phase is repeated at the start of each iteration of the knowledge loop.
 
 During this phase, immunization experts from the MS perform the following tasks:
 
--   **Determine the Scope of the CDS:** The experts define the scope of the CDS according to the project's specific purpose. This can cover all vaccinations, or be limited to specific groups, such as children, adults, employees, or individuals with particular health conditions). It may also target specific diseases or be used for defined purposes like travel vaccines or the issuance of certificates.
+-   **Determine the Scope of the CDS:** The experts define the scope of the CDS according to the project's specific purpose. This can cover all vaccinations, or be limited to specific groups, such as children, adults, employees, or individuals with particular health conditions. It may also target specific diseases or be used for defined purposes like travel vaccines or the issuance of certificates.
 -   **Collate and Translate Documents:** The experts gather all relevant recommendation documents, synthesizing the information and translating it into English for the CDS provider’s medical team. These documents will serve as the foundation for drafting the ruleset that will guide the CDS.
 -   **Identify the required concepts:** Based upon the scope and their local context, the experts identify the list of relevant vaccine products and the HALO factors that will have to be exposed in the user interface of the client systems.
 
@@ -190,7 +190,7 @@ The overall planning for the deployment and the first round of knowledge capture
 
 ## Tool specifications
 
-Although this implementation plan is not tied to any particular CDS tool, the pilot projects were executed using the CDS implemented by SYADEM, which has been deployed both in France (under the brand MesVaccins.net, serving both citizens and professional users) and in Luxembourg (as part of the national health data platform under the CVE - Carnet de Vaccination Electronique) - for citizens and professionals).
+Although this implementation plan is not tied to any particular CDS tool, the pilot projects were executed using the CDS implemented by SYADEM, which has been deployed both in France (under the brand MesVaccins.net, serving both citizens and professional users) and in Luxembourg (as part of the national health data platform under the CVE - Carnet de Vaccination Electronique - for citizens and professionals).
 
 This specific CDS tool offers several key features:
 

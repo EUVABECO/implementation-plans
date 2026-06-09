@@ -12,7 +12,7 @@ The CDS tool delivers personalized immunization recommendations to both citizens
 
 The tool supports patient adherence by providing detailed, scientifically supported justifications for due vaccinations and helps health professionals in staying updated with the latest recommendations from national or regional health authorities.
 
-When integrated with an Electronic Health Records (EHR) application or an Immunisation Information System (IIS), the CDS can accurately assess the ratio of the population that is protected against vaccine preventable diseases.
+When integrated with an Electronic Health Records (EHR) application or an Immunisation Information System (IIS), the CDS can accurately assess the ratio of the population that has received an adequate protection against vaccine preventable diseases.
 
 ## Involved stakeholders and their expectations
 
@@ -44,7 +44,7 @@ The NITAG expect their recommendations to be easily and promptly transcribed. Th
 
 ### Health authority
 
-The health authority's primary concern is ensuring the CDS service is reliable and available, supported by robust quality processes for both the CDS engine and immunization knowledge digitization. The recommendations provided must clearly distinguish between those endorsed by the health authority and general scientific recommendations.
+The health authority's primary concern is ensuring the CDS service is reliable, secure, up to date and available, supported by robust quality processes for both the CDS engine and immunization knowledge digitization. The recommendations provided must clearly distinguish between those endorsed by the health authority and general scientific recommendations.
 
 ### Implementers of EHRs
 
@@ -84,9 +84,9 @@ The CDS tool’s quality assurance process must cover not only the software engi
 
 ### Medical responsibility
 
-The CDS tool is a decision support system, meaning that the ultimate responsibility for vaccination decisions lies with the health professional administering the care. The tool cannot replace the need for proper training by Member State (MS) health authorities, ensuring that professionals can make appropriate vaccination decisions even without the tool or in cases where the CDS recommendations are questionable.
+The CDS tool is a decision support system, meaning that the ultimate responsibility for vaccination decisions lies with the health professional administering the care. The tool cannot replace the need for proper training by Member State (MS) health authorities, ensuring that professionals can make appropriate vaccination decisions even without the tool or in cases where the CDS recommendations are questionable. In must be clearly stated that the recommendations can never substitute to a trained health professional advice.
 
-All CDS-generated decisions must be clearly documented and sourced, giving health professionals access to supporting materials such as the product information leaflet (ePIL) or locally endorsed vaccination recommendations.
+All CDS-generated decisions must be clearly documented and sourced, giving health professionals access to supporting materials such as the electronic product information leaflet (ePIL) or locally endorsed vaccination recommendations.
 
 ## Use cases
 
@@ -102,7 +102,7 @@ She accesses the public CDS interface and completes a questionnaire about her he
 
 Figure 1- Questionnaire based recommendation
 
-Since Jane is pregnant, she advised to receive the COVID-19 vaccine and is informed that pertussis vaccination is recommended between the 18th and 34th week of pregnancy. as Additionally, she is advised to get an Influenza vaccine when the flu season starts in October.
+Since Jane is pregnant, she is advised to receive the COVID-19 vaccine and is informed that pertussis vaccination is recommended between the 18th and 34th week of pregnancy. Additionally, she is advised to get an Influenza vaccine when the flu season starts in October.
 
 Jane also learns she should have received a Diphtheria-Tetanus-Poliomyelitis booster after age 20 due to her work with children.
 
@@ -130,7 +130,7 @@ A Member State maintains a nationwide Immunization Information System (IIS).
 
 Faced with a resurgence of measles, public health authorities need to assess the risk of an outbreak in different regions.
 
-They use the data linkage tool to gather pseudonymized information from the IIS, tax authority (for household composition), and public health insurance (for health conditions and past infections). This data is submitted to the CDS, and the results are visualized through a geographical information system. This allows authorities to determine vaccine needs by region for the next six months.
+They use the data linkage tool to gather pseudonymized information from the IIS, tax authority (for household composition), and public health insurance (for health conditions and past infections). This data is submitted to the CDS, and the results are visualized through a geographical information system. This allows authorities to determine vaccine needs by region for the next six months. It may also inform the vaccination rate for the forecasting tool.
 
 ### UC04 - Feeding a reminder-recall infrastructure
 
@@ -148,7 +148,7 @@ Figure 3 - Configuring for reminders
 
 Tomas, a medical student, is practicing vaccination decision-making as part of his coursework.
 
-He logs into a training platform and is presented with 20 theoretical clinical cases from a database of synthetic or anonymized patient profiles. For each case, Tomas must decide which vaccinations should be administered in the next six months, specifying the timing of each.
+He logs into a training platform and is presented with 20 theoretical clinical cases from a database of synthetic patient profiles. For each case, Tomas must decide which vaccinations should be administered in the next six months, specifying the timing of each.
 
 The same cases are processed by the CDS, and Tomas’ decisions are compared with the tool’s recommendations. He can see which vaccines he identified correctly, which he missed, and any vaccines he wrongly recommended. Detailed justifications and reference materials are provided for each case, and at the end, Tomas receives a scorecard for self-evaluation.
 
@@ -162,9 +162,9 @@ By the end of each sequence, he gets a scorecard for his own evaluation.
 
 Alan is applying for a job on an oil rig, which requires proof of vaccination against certain diseases.
 
-He has a EVC, but the hiring team is not entitled to access his medical data. The employing company has subcontracted a compliance service that exposes a CDS tool with vaccination rules tailored to the job requirements.
+He has an EVC, but the hiring team is not entitled to access his medical data. The employing company has subcontracted a compliance service that exposes a CDS tool with vaccination rules tailored to the job requirements.
 
 Before his job interview, Alan uploads his EVC to the CDS platform and receives a digitally signed compliance certificate, confirming that his vaccinations meet the job requirements. He can present this certificate at his interview without disclosing additional medical information.
 
-*The same method is applicable to any situation where vaccination status is required for “administrative” purposes (according to the Medical/Administrative/Personal mapping used throughout the [Vaccines-EU study](https://data.europa.eu/doi/10.2925/236134).*
+*The same method is applicable to any situation where vaccination status is required for “administrative” purposes (according to the Medical/Administrative/Personal mapping used throughout the [Vaccines-EU study](https://data.europa.eu/doi/10.2925/236134)).
 

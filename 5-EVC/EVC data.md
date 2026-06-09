@@ -8,7 +8,7 @@ This history may contain vaccines that were administered decades ago, or abroad.
 
 Using the most precise available information is important. Routine vaccination schedules are written based upon actual products summaries of product characteristics, and trying to reinterpret them with generic descriptions may be misleading and create a responsibility blur between the NITAG and the digitization team.
 
-Oppositely, catchup vaccination strategies require to understand the role of a foreign or past vaccine, that is not explicit only from its code or name. The codes used must be complemented with a minimal functional description of the vaccine, characterizing the effect on the human immunity system.
+Conversely, catchup vaccination strategies require to understand the role of a foreign or past vaccine, that is not explicit only from its code or name. The codes used must be complemented with a minimal functional description of the vaccine, characterizing the effect on the human immunity system.
 
 The existing electronic records of vaccinations rely upon heterogeneous code systems, such as national pharmaceutical codes (PZN, CIS, CNK, etc.), regional codes (CVX, EU identifier for centrally approved vaccines, etc.) or international generic codes (ATC, ICD-11, SNOMED-CT).
 

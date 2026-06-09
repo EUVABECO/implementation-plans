@@ -20,7 +20,7 @@ To gather all of these in a comprehensive and descriptive representation, EUVABE
 
 To elaborate the recommendations, the CDS needs the characterization of the regarded person. This characterization consists of Health, Ageing, Lifestyle and Occupation characteristics, known as HALO factors.
 
-The HALO factors are identified by the NITAGs when elaborating the vaccination schedules for their health jurisdiction. They may be extremely diverse, ranging from basic notions such as age or sex to complex situations like living with an immunocompromised person.
+The HALO factors are identified by the NITAGs when elaborating the vaccination schedules for their health jurisdiction. They may be extremely diverse, ranging from basic notions such as age to complex situations like living with an immunocompromised person.
 
 When the CDS is invoked from a professional health application, it is desirable that the HALO factors are populated from the existing records. Yet, this is only partially achievable for many reasons:
 

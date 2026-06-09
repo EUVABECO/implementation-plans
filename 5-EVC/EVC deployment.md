@@ -97,7 +97,7 @@ Each EHR supplier for a client system should now perform its own integration of 
     -   The acquisition of the digital section of an EVC, either as an uploaded PDF file or using a barcode reader
     -   The verification of the signature for the acquired data
     -   The unpacking of the EVC data into a patient record. This may imply transcribing the administered vaccine codes from the NUVA universal encoding to the locally used code system.
-    -   The resolution of potential conflicts will already existing records. The policy document for this resolution is provided as a resource from the EUVABECO project.
+    -   The resolution of potential conflicts with already existing records. The policy document for this resolution is provided as a resource from the EUVABECO project.
 -   Writing an EVC:
     -   If the master records repository for the given EHR application differs from the local storage, the transfer of patient vaccination events to the repository and the retrieval of the corresponding reference for each record.
     -   The assembling of the EVC payload

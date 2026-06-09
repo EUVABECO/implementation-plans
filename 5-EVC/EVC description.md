@@ -1,12 +1,12 @@
-# EUROPEAN VACCINATION CARD (EVC) - FUNCTIONAL DESCRIPTION
+EUROPEAN VACCINATION CARD (EVC) - FUNCTIONAL DESCRIPTION
 
 # Objectives
 
 *This section is the overall rationale for the tool.*
 
-The European Vaccination Card (EVC) is a portable, self-contained document, provided to citizens to carry their vaccination history without loss of information across different European national or regional health jurisdiction.
+The European Vaccination Card (EVC) is a portable, self-contained document, provided to citizens to carry their vaccination history without loss of information across different European national or regional health jurisdictions.
 
-Its primary purpose is the continuity of care, allowing the health professionals to maintain the adequate level of protection of the person by having access to a reliable restitution of the vaccination history.
+Its primary purpose is the continuity of care, allowing the health professionals to maintain an adequate level of protection of the person by having access to a reliable restitution of the vaccination history.
 
 It has a dual format, with both a text representation readable by humans and a digital representation readable by applications. This digital representation allows to:
 
@@ -18,7 +18,7 @@ It has a dual format, with both a text representation readable by humans and a d
 
 The content of the EVC is minimized and similar to what already exists in legacy vaccination cards with:
 
--   Basic identity traits (family name, given name and date of birth), that will allow the receiving health professional that the presented EVC matches with the presenting person.
+-   Basic identity traits (family name, given name and date of birth), that will allow the receiving health professional to verify that the presented EVC matches the presenting person.
 -   History of received vaccines, with for each vaccine a date, the identification of the administered product and a reference to the administering health facility.
 
 # Involved stakeholders and their expectations
@@ -27,8 +27,8 @@ The content of the EVC is minimized and similar to what already exists in legacy
 
 The participants are:
 
--   The citizen if he retrieves, carries, or shares the EVC. He his either the subject of the EVC or his legal representative (e.g. parents of a child)
--   The health professional if he delivers or imports/reading the EVC
+-   The citizen if they retrieve, carry, or share the EVC. They are either the subject of the EVC or their legal representative (e.g. parents of a child)
+-   The health professional if they deliver, import or read the EVC
 -   The health authority from the issuing health jurisdiction
 -   The health authority from the receiving health jurisdiction
 -   The EHR suppliers if they have to deliver or interpret EVCs
@@ -47,11 +47,11 @@ They expect a document at their hand, in a familiar format, easy to access and t
 
 The health professionals take the initiative of delivering or accepting EVCs. They will adopt the EVC only if they find a benefit in its use.
 
-This benefit is visible when they import an EVC, since it saves them a work of entering the vaccination history into their own EHR application.
+This benefit is visible when they import an EVC, since it saves them the work of entering the vaccination history into their own EHR application.
 
 They have no immediate benefit in delivering an EVC, apart from occasionally satisfying a request from their patients or specific legal frames. It means that the effort for this delivery must be minimal, with a simple action from their own EHR application.
 
-In countries where a Immunisation Information System (IIS) shared across health professionals has been deployed, the import or delivery of EVCs can be less useful, since the same data can be retrieved from or published to the IIS. Yet, the EVC will still be useful:
+In countries where an Immunisation Information System (IIS) shared across health professionals has been deployed, the import or delivery of EVCs can be less useful, since the same data can be retrieved from or published to the IIS. Yet, the EVC will still be useful:
 
 -   for patients that, by choice or because they are foreigners, are not recorded in the IIS,
 -   for local patients travelling abroad.
@@ -90,7 +90,7 @@ The e-Health operator may be mandated by the health authority for:
 -   Handling technically the authentication of accredited health professionals.
 -   Setting up the infrastructure for the digital signature of the EVC. This may require collaboration with an external digital signature operator.
 
-When relevant, an e-Health operator may have to integrate the import and delivery of the EVC into national resources such as an IIS or a repository of health documents. His expectations are then similar to the ones for an EHR supplier.
+When relevant, an e-Health operator may have to integrate the import and delivery of the EVC into national resources such as an IIS or a repository of health documents. Their expectations are then similar to the ones of an EHR supplier.
 
 ## Digital signature operators
 
@@ -126,7 +126,7 @@ No information on the EVC should be hidden from the citizen. Each EVC can be pri
 
 ## Non-discrimination
 
-Paper-based vaccination cards have been around for more than one century. The EVC is only an augmented presentation of it. Yet, nobody should be deprived of any right or service because he does not hold an EVC. All use cases relying upon the EVC should also be possible based upon traditional vaccination cards, even if they demand more effort or the intermediation of a health professional.
+Paper-based vaccination cards have been around for more than one century. The EVC is only an augmented presentation of it. Yet, nobody should be deprived of any right or service because they do not hold an EVC. All use cases relying upon the EVC should also be possible based upon traditional vaccination cards, even if they demand more effort or the intermediation of a health professional.
 
 # Use cases
 
@@ -140,7 +140,7 @@ The use cases below are built across the fictitious states of Alpharia, Betaria 
 
 In Alpharia, Dr Costa receives her usual patient, Anna, a 27-year-old nurse. She is about to move from Alpharia to Betaria for several years and wants to carry her vaccination information.
 
-Dr Costa access to Anna’s patient record in her EHR application. All Anna’s vaccinations are already documented there, she clicks on the “EVC” button and downloads the PDF document for the EVC. She asks Anna if she wants to receive it by secured file transfer or have a printout. Anna prefers a secured file transfer (out of the scope of this document, various public or private solutions exist with diverse restrictions according to MS regulations), so Dr Costa sends it to her. A local copy of the EVC is also kept into Dr Costa EHR application for future reference.
+Dr Costa accesses to Anna’s patient record in her EHR application. All of Anna’s vaccinations are already documented there; she clicks on the “EVC” button and downloads the PDF document for the EVC. She asks Anna if she wants to receive it by secured file transfer or have a printout. Anna prefers a secured file transfer (out of the scope of this document, various public or private solutions exist with diverse restrictions according to MS regulations), so Dr Costa sends it to her. A local copy of the EVC is also kept into Dr Costa EHR application for future reference.
 
 ### Behind the scenes
 
@@ -202,19 +202,19 @@ The elaboration process for the EVC is then equivalent to the one used in Alphar
 
 ### Actions
 
-When unpacking her boxes, Anna found a partial EVC that she was given at a travel vaccination centre three years ago when she got the yellow fever vaccination. She had never reported this vaccination to Dr Costa in Alpharia, and this it is missing in her last EVC.
+When unpacking her boxes, Anna found a partial EVC that she was given at a travel vaccination centre three years ago when she got the yellow fever vaccination. She had never reported this vaccination to Dr Costa in Alpharia, and this is thus missing in her last EVC.
 
 On her next day at the hospital, she sees Dr Muller and shows him the old EVC. He scans it and is presented with a comparison screen showing the differences:
 
 -   Vaccines prior to the yellow fever administration are both in the old EVC and the EHR.
--   The yellow fever is vaccine is in the old EVC but missing in the EHR.
+-   The yellow fever vaccine is in the old EVC but missing in the EHR.
 -   Vaccines administered after the yellow fever one are in the EHR, but not the old EVC.
 
 Dr Muller revalidates all new records from the EHR except the yellow fever one, plus the yellow fever from the EVC. He then delivers to Anna a new EVC.
 
 ### Behind the scenes
 
-The EHR application includes a comparison function that compares its preexisting records with the ones from a submitted EVC. This function includes a tolerance when two vaccination events are recorded at the same date, for a same vaccine but with different levels of precision is the vaccine product encoding, such as “FLUARIX” and “Flu vaccine”. The identification of a same vaccine at different levels of precision is possible based upon a structured description of vaccines (the NUVA terminology used in the EUVABECO project).
+The EHR application includes a comparison function that compares its preexisting records with the ones from a submitted EVC. This function includes a tolerance when two vaccination events are recorded at the same date, for a same vaccine but with different levels of precision in the vaccine product encoding, such as “FLUARIX” and “Flu vaccine”. The identification of a same vaccine at different levels of precision is possible based upon a structured description of vaccines (the NUVA terminology used in the EUVABECO project).
 
 ## UC06 – Obtaining a vaccination certificate
 
