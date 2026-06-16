@@ -106,7 +106,7 @@ Each EHR supplier for a client system should now perform its own integration of 
 
 ## C3 – Verification of compliance
 
-Compliant implementations must be able to read EVCs provided from any other compliant system, and to write EVCs that can be read from other systems. This is documented in the [Verification](EVC%20verification.md) module.
+Compliant implementations must be able to read EVCs provided from any other compliant system, and to write EVCs that can be read from other systems. This is documented in the [Verification](12-EVC%20verification.md) module.
 
 # Typical planning
 

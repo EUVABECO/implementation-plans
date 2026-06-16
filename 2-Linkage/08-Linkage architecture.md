@@ -39,4 +39,4 @@ One way to achieve this is to ask the data providers to split their data in two 
 
 Depending on the number of data providers and their relationship, the rest of the architecture, and local regulation, the pseudonymisation process can vary. It is nonetheless essential that it occurs before the data reach the research environment and are analysed.
 
-The whole data linkage process, or sections of it, can initially be tested using synthetic data in order to validate certain technical aspects before using ‘*real’* data. (Further information on synthetic data is available in [Data module](Linkage%data.md))
+The whole data linkage process, or sections of it, can initially be tested using synthetic data in order to validate certain technical aspects before using ‘*real’* data. (Further information on synthetic data is available in [Data module](09-Linkage%20data.md))
