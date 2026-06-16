@@ -8,7 +8,9 @@
 
 ### Operational
 
-For the Forecasting Tool to function effectively, implementing Member States (MS) must establish clear operational governance structures involving public health authorities, epidemiological surveillance units, healthcare institutions, data governance bodies, and technical support teams. The implementation of the tool requires clearly defined roles and responsibilities for data collection, data validation, epidemiological analysis, model calibration, operational monitoring, cybersecurity, and reporting workflows. Continuous collaboration between healthcare providers, surveillance systems, public health authorities, and technical teams is necessary to ensure reliable and timely forecasting outputs. Additionally, implementing MS should establish regular reporting mechanisms, operational standard operating procedures (SOPs), escalation protocols, communication workflows, and training programmes for end-users and administrators.
+For the Forecasting Tool to function effectively, implementing Member States (MS) must establish clear operational governance structures involving public health authorities, epidemiological surveillance units, healthcare institutions, data governance bodies, and technical support teams. The implementation of the tool requires clearly defined roles and responsibilities for data collection, data validation, epidemiological analysis, model calibration, operational monitoring, cybersecurity, and reporting workflows. Continuous collaboration between healthcare providers, surveillance systems, public health authorities, and technical teams is necessary to ensure reliable and timely forecasting outputs.
+
+A further key component if that the tool is not treated as a one-off technical build, but as a continuously managed public health capability. Model validation is therefore defined as an ongoing activity requiring explicit acceptance criteria, including predictive performance against historical data, robustness to uncertainty, and interpretability for non-technical users. During operation, technical verification, scientific validation, and operational readiness assessment is an ongoing process. Therefore, implementing MS should establish regular reporting mechanisms, operational standard operating procedures (SOPs), escalation protocols, communication workflows, and training programmes for end-users and administrators. They should also ensure the availability of all prerequisites throughout the whole period of use of the forecasting tool.
 
 ### Legal and ethical
 
@@ -24,11 +26,76 @@ The successful deployment of the Forecasting Tool requires robust technical infr
 
 ### Data availability
 
-The effectiveness of epidemiological forecasting strongly depends on the availability of high-quality, timely, and geographically detailed data. Implementing MS should ideally provide incidence and surveillance data, hospitalization data, intensive care unit (ICU) admissions, mortality data, vaccination coverage, genomic surveillance data regarding variants of concern (VOCs), demographic data, healthcare capacity indicators, and non-pharmaceutical intervention (NPI) timelines. Data should be standardized, harmonized, regularly updated, geographically granular where possible, and stratified by age and sex/gender where available.
+The effectiveness of epidemiological forecasting strongly depends on the availability of high-quality, timely, and geographically detailed data. Implementing MS should ideally provide incidence and surveillance data, hospitalization data, intensive care unit (ICU) admissions and bed capacity, mortality data, vaccination coverage, genomic surveillance data regarding variants of concern (VOCs), demographic data, healthcare capacity indicators, and non-pharmaceutical intervention (NPI) timelines. Data should be standardized, harmonized, regularly updated, geographically granular where possible, and stratified by age and sex/gender where available.
+
+The reference temporal unit is the day, and the minimum spatial resolution is at the national level, with sub-national resolution implemented where feasible. Data should be disaggregated by age, sex/gender, and, whenever possible, relevant clinical risk groups.
+
+Where available, data should also be stratified by sex/gender and by vaccination status (including primary vaccination and booster doses), in order to support more granular modelling of epidemiological dynamics.
+
+The implementation must include a **formal definition of all data used by the forecasting tool**. A **variable charter** must document for each variable the following information:
+
+1.  definition, units, and scope;
+2.  data source;
+3.  update frequency (preferably daily);
+4.  known limitations;
+5.  responsible authority.
+
+An example of a variable charter is provided below:
+
+| **Variable Name**       | **Definition / Scope**                                                 | **Unit**      | **Stratification** | **Data Source**                 | **Update Frequency** | **Known Limitations**                                               | **Responsible Authority**        | **Missing Data Handling**               |
+|-------------------------|------------------------------------------------------------------------|---------------|--------------------|---------------------------------|----------------------|---------------------------------------------------------------------|----------------------------------|-----------------------------------------|
+| Daily confirmed cases   | Number of laboratory-confirmed COVID-19 cases reported in previous 24h | Cases/day     | Age, sex, region   | National Surveillance System    | Daily                | Reporting delays on weekends; under-detection of asymptomatic cases | Directorate-General of Health    | Backfill applied after 72h              |
+| ICU occupancy           | Number of occupied ICU beds by COVID-19 patients                       | Patients      | Region             | Hospital Reporting Platform     | Daily                | Some hospitals report with 1-day lag                                | Ministry of Health               | Missing values interpolated if \<2 days |
+| Vaccination coverage    | Percentage of population with completed primary vaccination scheme     | % population  | Age, sex           | National Vaccination Registry   | Daily                | Delays in private provider uploads                                  | National Vaccination Taskforce   | No interpolation                        |
+| Rt estimate             | Effective reproduction number estimated from incidence data            | Dimensionless | National           | Computed from surveillance data | Daily                | Sensitive to testing fluctuations                                   | Epidemiological Modelling Unit   | Recomputed retrospectively              |
+| Hospital length of stay | Mean duration of hospitalisation for COVID-19 patients                 | Days          | Age group          | Hospital discharge database     | Weekly               | Discharge coding inconsistencies                                    | National Health Analytics Office | Exclude incomplete episodes             |
+
+Minimum data quality rules should be defined for each dataset, including expected completeness, acceptable reporting delays, handling of missing values, and procedures for retrospective corrections. Deviations from these rules should be documented and explicitly considered during model calibration and interpretation of results.
+
+In practice, data availability may differ significantly from the ideal dataset definition. Such discrepancies should be explicitly documented, including missing variables, limited stratification or incomplete time series, and their impact on model outputs should be assessed.
+
+All ingested datasets should be versioned and accompanied by provenance metadata (including data source, extraction time, and revision history) to ensure full reproducibility across model runs.
+
+In addition to observational data, **epidemiological parameters** required by the models must be explicitly.
+
+These include, among others,
+
+1\. incubation and latency periods;
+
+2\. duration of infectiousness;
+
+3\. recovery times;
+
+4\. length of stay in hospital and ICU;
+
+5\. transition probabilities between clinical states;
+
+6\. transmission parameters such as R₀ and Rₜ, or algorithms to compute those parameters from data;
+
+7\. lethality of different compartments.
+
+Epidemiological parameters can be estimated from data, obtained from scientific literature or expert consensus.
+
+The initial definition of epidemiological parameters should be established prior to operational deployment, while their refinement and updating are part of the continuous implementation and operational phases.
+
+The authority responsible for defining, updating, and validating parameters must be clearly identified as a pre-requisite of the implementation. Parameter updates should be versioned, documented, and traceable across model runs to ensure transparency and reproducibility.
+
+A minimal change-control process should be established for epidemiological parameters, specifying who can propose changes, who is responsible for scientific review, and under which conditions updated parameters are released into operational use. All parameter changes should be logged and associated with specific model versions.
+
+As a supporting resource, MS may develop a standardised parameter governance template specifying parameter definition, source, update rules and validation procedures.
+
+| **Parameter**              | **Meaning**                                       | **Initial Value Initial Value** | **Source Source**        | **Update RuleUUpdate Rule** | **Validation Method**                   | **Owner**              |
+|----------------------------|---------------------------------------------------|---------------------------------|--------------------------|-----------------------------|-----------------------------------------|------------------------|
+| Incubation period          | Time between infection and symptom onset          | 5.2 days                        | Peer-reviewed literature | Quarterly review            | Comparison with national cohort studies | Scientific Coordinator |
+| Infectious period          | Duration during which transmission may occur      | 7 days                          | Literature + calibration | Updated if variant changes  | Sensitivity analysis                    | Epidemiological Team   |
+| ICU transition probability | Probability of hospitalised patient requiring ICU | 12%                             | National hospital data   | Monthly recalibration       | Retrospective fit                       | Modelling Unit         |
+| R₀ baseline                | Basic reproduction number                         | 2.8                             | Historical estimation    | Updated by wave             | Back-testing                            | Scientific Coordinator |
 
 ### Human resources
 
 The implementation and long-term sustainability of the Forecasting Tool require multidisciplinary human resource capacity, including epidemiologists, mathematical modellers, statisticians, data scientists, software engineers, cybersecurity specialists, public health analysts, healthcare informaticians, and technical support personnel. Comprehensive training programmes should be developed for system administrators, end-users, public health personnel, healthcare professionals, and policymakers. Continuous technical support and maintenance teams are also necessary to ensure operational continuity.
+
+As **minimum organisational conditions** for implementation, we recommend a core team including, at a minimum, a technical lead, a scientific lead for epidemiological modelling, a data governance lead, a project manager, and a data protection officer, supported by quality assurance and testing function. More broadly, the framework emphasises the need to separate strategic responsibilities, typically held by public authorities, from operational responsibilities, which may involve research institutions or specialised technical providers. This separation is necessary both for effective governance and for protecting scientific processes from undue political interference.
 
 ## Filling the gaps
 
