@@ -2,13 +2,22 @@
 
 *This section provides a functional overview of the intended tool and its usage. It outlines the goals and features without referring to any specific implementation.*
 
-*This implementation plan refers only to individual data linkage. Other types of data linkage are not covered by the several chapters of this implementation plan.*
+Data linkage is a method that brings together information that relates to the same individual, family, place or event/series of events from different data sources.
+
+Two main types of record linkage exist, namely deterministic and probabilistic:
+
+-   Deterministic data linkage is a rule-based method that links records on exact matches of one or more unique identifiers (e.g., social security numbers). It assumes exact accuracy in the identifiers variables and does not account for errors or variations. It is generally used when a high-quality identifier such as an ID number is available.
+-   Probabilistic data linkage is a method that links records by calculating the probability that two records belong to the same person using statistical models to account for errors, missing data, or variations in identifiers (e.g., typos in names). It assigns weights to agreements and disagreements between fields.
+
+Within EUVABECO and its associated outputs, the term *data linkage* refers primarily to deterministic individual-level data linkage based on a Unique Personal Identifier (UPI).
+
+This implementation plan therefore also addresses primarily UPI-based data linkage, unless stated differently. Other forms of data linkage fell outside the scope of this document and are not developed in detail by the subsequent chapters of this implementation plan.
 
 ## Objectives
 
 *This section is the overall rationale for the tool.*
 
-Data linkage is a method that brings together information that relates to the same individual, family, place or event from different data sources. Individual data linkage refers to the process of connecting individual-level information stored across several pre-existing data sources for defined public-health purposes. In the context of vaccination, it can support several applications in both routine immunisation programmes or public-health emergencies/crisis context.
+Individual data linkage refers to the process of connecting individual-level information stored across several pre-existing data sources for defined public-health purposes. In the context of vaccination, it can support several applications in both routine immunisation programmes and public-health emergencies/crisis context.
 
 The data linkage process can support:
 
@@ -29,7 +38,7 @@ Key stakeholders include:
 -   Data analysts
 -   Citizens
 
-The stakeholders and their roles may vary depending on the context and environment in which data linkage is implemented. The descriptions below are based on the Belgian context. The roles and responsibilities of each party involved in implementing the data linkage process must be clearly defined.
+*The stakeholders and their roles may vary depending on the context and environment in which data linkage is implemented. The descriptions below are based on the Belgian context. The roles and responsibilities of each party involved in implementing the data linkage process must be clearly defined.*
 
 ### Health authorities
 
@@ -43,7 +52,7 @@ As such, they rely on information that can help support vaccination planning, he
 
 ### Database owners
 
-Database owners (e.g., hospitals, national registries, or private providers) are the custodians that hold one or several dataset(s) which can be linked together thanks to a common identifier, and upon which the analyses are based. Their role is to ensure the data they provide is accurate and complete. In case a common identifier does not exist, probabilistic linkage (i.e. on the basis of a combination of variables that appear in multiple datasets, such as gender, postal code and date of birth).
+Database owners (e.g., hospitals, national registries, or private providers) are the custodians that hold one or more dataset(s) which can be linked together thanks to a common identifier, and upon which the analyses are based. Their role is to ensure the data they provide is accurate and complete.
 
 Database owners require a legal framework that ensures and permits the transfer of their data, as well as clear guidelines on data handling responsibilities and protocols. They expect a secure and robust data exchange. Additionally, a financial compensation is expected for their involvement, to support the provision and maintenance of the services, as this will require staff time from the side of the database owner.
 
@@ -51,7 +60,7 @@ Database owners require a legal framework that ensures and permits the transfer 
 
 A Trusted third party (TTP) is a neutral intermediary that manages direct and indirect identification data to perform pseudonymisation (generating and assigning unique, non-identifiable pseudonyms for the same individual across datasets, which is then used to connect the different datasets). This enables secure data linkage by database managers without exposing original identifiers. They are expected to maintain strict confidentiality, ensures security, data protection, and ethical compliance, avoid conflicts of interest, and provide audit trails to demonstrate the security of the linkage process.
 
-Trusted third parties require legal authorisation in order to process and handle data. They aim to set up a solid data flow and guarantee the reliability and security of data exchange.
+TTPs require legal authorisation in order to process and handle data. They aim to set up a solid data flow and guarantee the reliability and security of data exchange.
 
 ### Legal authorities
 
@@ -65,11 +74,11 @@ Another legal authority involved in data linkage is the ethics committee. The ro
 
 ### Database managers
 
-Database managers are responsible for the technical and operational aspects of the datasets. Their role includes preparing data for linkage (e.g., cleaning, standardizing formats), managing access permissions, troubleshooting technical issues, and performing the actual linkage.
+Database managers are responsible for the technical and operational aspects of the datasets. Their role includes preparing the pseudonymised data, without nominative information, for linkage (e.g., cleaning, standardising formats), managing access permissions, troubleshooting technical issues, and performing the actual linkage.
 
 ### Data analysts
 
-Data analysts and epidemiologists are the authorised personnel to perform the analysis on the linked data (e.g. data scientists, statisticians, epidemiologists, researchers in public health, etc.).
+Data analysts are the authorised personnel to perform the analysis on the pseudonymised linked data (e.g. data scientists, statisticians, epidemiologists, researchers in public health, etc.).
 
 They are responsible for translating results into clear evidence and reports. Those productions support health authorities to plan, organise and adjust vaccinations strategies.
 
@@ -83,35 +92,27 @@ Citizens should be informed, alerted and recommended vaccinations against diseas
 
 **Availability of databases and data quality**
 
-The number and diversity of relevant databases define the data linkage range of applications. The quality of the data will determine the performance of the linkage tool. The quality can be split up in various criteria, including:
+The number and diversity of relevant accessible databases define the data linkage range of applications. The quality of the data will determine the performance of the linkage tool. The quality can be split up in various criteria, including:
 
--   **Completeness**: ensuring that all relevant data are completely filled in; e.g., “*is the date of vaccine administration recorded for all vaccinated persons?*”.
--   **Conformance**: refers to the extent in which the data values adhere to specified standards and formats (i.e. data values comply with permitted values or ranges; e.g., sex only has the values “*Male*”, “*Female*” or “*Unknown*”; age is a natural number and is in a specified range).
+-   **Completeness**: ensuring that all relevant data are completely filled in; e.g., ‘*is the date of vaccine administration recorded for all vaccinated persons?*’.
+-   **Conformance**: refers to the extent in which the data values adhere to specified standards and formats (i.e. data values comply with permitted values or ranges; e.g., sex only has the values ‘*Male*’, ‘*Female*’ or ‘*Unknown*’; age is a natural number and is in a specified range).
 -   **Consistency**: this is the uniformity, coherence, and lack of contradiction in data across multiple datasets. It ensures that the same information (e.g., a persons’ age) is represented identically across all databases.
 -   **Plausibility**: checks whether data values are believable, i.e. there is a plausible sequence of events and relationships between values; e.g., vaccine administration dates falling before the first vaccine administered in country.
--   **Representativeness**: the extent to which the study population is representative for the target population (e.g., *do they reflect the population breakdown of the country in terms of sex, age, geographical location?*).
+-   **Representativeness**: the extent to which the study population is representative for the target population (e.g., ‘*do they reflect the population breakdown of the country in terms of sex, age, geographical location?’*).
 
 **IT infrastructure**
 
 The performance of the linkage tool is dependent on the performance of the IT infrastructure. It directly impacts the capacity to provide real-time insight and accurate, continuous monitoring. Several aspects should be considered.
 
--   **Timeliness:** *the frequency and the speed of the data transfers.*
--   **Automation:** *minimizes manual intervention and efforts for repetitive tasks ensuring efficiency and consistency.*
--   **Scalability:** *the capacity to accommodate changes in the volumes and structures of data, as well as an increased workload.*
--   **Interoperability:** *supports standards data formats and protocols for data exchange.*
--   **User-friendliness:** *this facilitates both the data linkage and the data analyses.*
-
-**Multidisciplinary team**
-
-For the optimal utilisation of the processed data, a collaboration is required between data scientists and public health experts. The first will extract, prepare, and analyse the data while the second will work on study design, preparing an analysis plan, interpreting the results, and translating it in real-world recommendations.
+-   **Timeliness:** the frequency and the speed of the data transfers.
+-   **Automation:** minimizes manual intervention and efforts for repetitive tasks ensuring efficiency and consistency.
+-   **Scalability:** the capacity to accommodate changes in the volumes and structures of data, as well as an increased workload*.*
+-   **Interoperability:** supports standards data formats and protocols for data exchange.
+-   **User-friendliness:** this facilitates both the data linkage and the data analyses.
 
 **Available funding**
 
 Adequate funding is necessary for the resources (data acquisition, infrastructure, technology, personnel and expertise) required for developing and maintaining the system. Sufficient funding is essential for the initial development and implementation phases, ensuring the system is built to meet the required specifications. Ongoing funding is required to maintain the system, implement new tools, perform data updates and keep the system secure, efficient and up to date.
-
-**Culture of data-driven policies among the stakeholders**
-
-Data-driven culture among stakeholders impacts the willingness and ability of stakeholders to effectively implement and utilise the data linkage process. A supportive culture is necessary to ensure that the linked data is actively used for policy- and decision-making processes. Without this cultural foundation, the data linkage process may not achieve its intended impact. Stakeholders who value data-driven insights are more likely to prioritise and invest in the necessary infrastructure, training, and resources needed to implement and sustain a data linkage process. More specifically, participation and contribution to the European Health Data Space (EHDS) ecosystem will facilitate implementation of the linkage tool.
 
 **Institutional trustworthiness regarding (health) data**
 
@@ -119,13 +120,7 @@ The acceptability of the tool depends on citizen confidence that government and 
 
 Behaviours fostering trust are competency (demonstrating expertise and knowledge) transparency (being open and honest on operations and decisions), and fairness.
 
-A practical application is effort in the protection of sensitive personal data: protection measure, effective risk management, compliance with standards, etc. In addition, there should be clear and transparent communication about this to the general public.
-
-**Computer literacy and knowledge on privacy rules among HCW**
-
-For the data linkage process to be used effectively, healthcare workers should have a basic level of computer literacy to interact with their recording/reporting system (primary data collection system). A lack of computer literacy can lead to user errors, data entry mistakes, and improper use of the system, which can compromise the integrity and accuracy of the linked data. The system may not be usable, regardless of its technical capabilities. Healthcare workers with adequate computer skills can use the system more efficiently and are more prone to accept and use the system.
-
-As they are working with personal and sensitive (medical) data, it is also essential that HCW have some knowledge on privacy regulations, such as the General Data Protection Regulation (GDPR). This can be accommodated by following (online) trainings related to this topic, organised by a data protection authority.
+A practical application is effort in the protection of sensitive personal data: protection measures, effective risk management, compliance with standards, etc. In addition, there should be clear and transparent communication about this to the general public.
 
 ## Use cases
 
@@ -135,27 +130,27 @@ As they are working with personal and sensitive (medical) data, it is also essen
 
 Post-authorisation vaccine surveillance consists of monitoring various outcomes related to the vaccine. It is used to inform policy decisions, optimise vaccination strategies and allocate resources effectively to improve overall public health outcomes.
 
-The healthcare sector is an information-intensive environment, where the transmission of information can be altered in the event of overload, such as during a public health emergency or the introduction of new vaccine.
+The healthcare sector is an information-intensive environment, where the transmission of information can be altered in the event of overload, such as during a public health emergency or the introduction of a new vaccine. Having a data linkage process that is already deployed during a non-crisis situation helps to minimise the risk of overload by ensuring timely access to information and supporting continuity of information exchange and care in routine surveillance, which can be scaled up during a crisis instead of set up from scratch.
 
-Establishing a link between the national vaccination registers and existing databases of national health registers, all of which contain a national UPI, aims to create a prospective cohort of vaccinated people. The data linkage of pre-collected data avoids the need to set up a new prospective data collection system, which add to the burden already imposed on healthcare staff. Such linkage make it possible to monitor vaccination coverage, safety, and effectiveness among the general population as well as in specific subgroups (e.g. elderly people, healthcare workers, nursing home residents, etc.).
+Establishing a link between the national vaccination registers and existing databases of national health registers, all of which contain a national unique personal identifier (UPI), aims to create a prospective cohort of vaccinated people. The data linkage of pre-collected data avoids the need to set up a new prospective data collection system, which add to the burden already imposed on healthcare staff. Such linkage makes it possible to monitor vaccination coverage, safety, and effectiveness among the general population as well as in specific subgroups (e.g. elderly people, healthcare workers, nursing home residents, etc.).
 
-Potential data sources linked to vaccination registry and output associated:
+Potential data sources linked to vaccination registry and associated outputs:
 
 | DATA SOURCE                                            | (POSSIBLE) CONTENT                                                                                                                                                                    | OUTPUT                                                                                                                                                                                               |
 |--------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Laboratory test results database                       | Data on tested patients<br>Information on test prescriptions, test results (including rapid tests), symptoms, variant, suspected false negatives and false positives                  | Identification of breakthrough cases<br>Estimation of **vaccine effectiveness against symptomatic infection**                                                                                        |
-| Hospitals clinical database                            | Data on hospitalised patients (e.g. comorbidities, symptoms, complications, length of stay, treatments, outcome of hospitalisation, entry and discharge of intensive care unit, etc.) | Identification and characterisation of hospitalised breakthrough cases<br>Estimation of **vaccine effectiveness against hospitalisation**                                                            |
+| Hospitals’ clinical databases                          | Data on hospitalised patients (e.g. comorbidities, symptoms, complications, length of stay, treatments, outcome of hospitalisation, entry and discharge of intensive care unit, etc.) | Identification and characterisation of hospitalised breakthrough cases<br>Estimation of **vaccine effectiveness against hospitalisation**                                                            |
 | Healthcare professional database                       | Data allowing identification of healthcare workers (HCWs)                                                                                                                             | Determination of **vaccination coverage among healthcare workers**                                                                                                                                   |
-| National statistics databases                          | Socio-economic information (family composition, nationality/origin, employment status, income, …)<br>                                                                                 | Differences in **vaccine uptake by:** <br>**Underlying conditions**<br>**Socio-economic status**<br>**Socio-demographic groups**<br> <br>Confounders for **vaccine effectiveness** calculations<br>  |
+| National statistics databases                          | Socio-economic information (family composition, nationality/origin, employment status, income, …)                                                                                     | Differences in **vaccine uptake by:** <br>**Underlying conditions**<br>**Socio-economic status**<br>**Socio-demographic groups**<br> <br>Confounders for **vaccine effectiveness** calculations<br>  |
 | Insurance databases <br>(Care reimbursement databases) | Data on reimbursed care and medicines of citizens insured in the country (e.g. pseudo-pathologies as comorbidities, nursing home<br>resident status, medications, etc.)               |                                                                                                                                                                                                      |
+
+*In case a common identifier does not exist, other linkage option can be used (Module 04 – Pre requisites).*
 
 The different information collected and analysed through the linkage of databases can be used for infographics or communication support for stakeholders involved in policy decisions, as well as for the general population, regarding the almost real-time vaccination coverage during a vaccination campaigns, the effectiveness of the vaccines administered.
 
 ### Screening for vaccination invitation
 
-Vaccination requires preparation in order to target the people for whom vaccination is the most necessary or effective (specific to an age group, medical condition, profession, risk of exposure, etc.).
-
-Linkage of existing databases can help to identify individual for an invitation for vaccination based on chosen characteristics and ensure the protection of those in need.
+Vaccination requires preparation in order to target the people for whom vaccination is the most necessary or effective (specific to an age group, medical condition, profession, risk of exposure, etc.). Linkage of existing databases can help to identify individuals for vaccination invitations based on chosen characteristics and ensure the protection of those in need.
 
 An extension of this is the ability to track among the target population who has not yet been vaccinated, despite having received an invitation, by linking the vaccine register with nominative information. This allows for the sending of personalised reminders.
 
@@ -173,7 +168,7 @@ Medical prioritisation criteria have been established by national authorities an
 
 A dedicated environment is created to host the linkage and the screening procedure. The different databases go through the TTP for the pseudonymisation procedure using deterministic encryption, before being imported in this environment. The linkage is thus performed based on the pseudo-UPI. Based on the vaccination recommendations, the priority patients are flagged. Those who died or are already vaccinated are filtered out and a list of pseudo-UPI is extracted.
 
-The deterministic encryption makes it possible to send this list back to the TTP for de-pseudonymisation. Thanks to this process, the competent authorities is able to contact the prioritised patients without ever knowing the reason of prioritisation, thus protecting their privacy.
+The deterministic encryption makes it possible to send this list back to the TTP for de-pseudonymisation. Thanks to this process, the competent authorities are able to contact the prioritised patients without ever knowing the reason of prioritisation, thus protecting their privacy.
 
 *![](media/fa4837a361b5288dfb63de6024ef330e.jpg)*
 

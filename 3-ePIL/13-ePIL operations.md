@@ -21,7 +21,7 @@ The infrastructure, consisting of both the general-purpose Web server holding th
 
 # Monitoring
 
-The availability of both the general-purpose server holding the references file and the redirection server towards the actual documents should be monitored continuously with online probes.
+The availability of both the general-purpose server holding the references file and the redirection server towards the actual documents should be monitored continuously with online probes. The availability targets will depend upon the implementation, that may include several layers of caches since the documents are not evolving rapidly.
 
 Depending upon the implementation by each client application, the redirection server could be used for all ePIL accesses, or only for the ones that belong to centrally approved products or other health jurisdictions.
 

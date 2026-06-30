@@ -82,7 +82,7 @@ Such a server has been implemented for the EUVABECO project, serving redirection
 
 ## Implement the tools for access by the citizens
 
-In all three access modes, the ePIL is exposed through a web browser, either integrated into the application used by the citizen or invoked from this application. This browser has to support redirection and should preferably be able to display of PDF documents.
+In all three access modes (from an online repository, from the vaccine package, from an administered vaccine record), the ePIL is exposed through a web browser, either integrated into the application used by the citizen or invoked from this application. This browser has to support redirection and should preferably be able to display of PDF documents.
 
 When reading from a health record of administered or prescribed vaccines, the mapping from the codes used within the application and the vaccine product code used in the standardised reference relies upon the NUVA alignment files, also used to populate the EVC.
 

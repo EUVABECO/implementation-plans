@@ -35,7 +35,7 @@ Individuals who receive, access and use the ePIL expect easy access to accurate 
 
 ### Healthcare Professionals (HCPs)
 
-HCPs, including hospital practitioners, general practitioners, pharmacists and nurses, who administer vaccines and provide trustworthy information to the public, expect efficient systems to access and deliver ePILs, potentially integrated with existing electronic health records (EHRs) and prescribing systems, and assurance that the ePILs are up-to-date and accurate. HCPs that administer vaccines can vary among EU Member States.
+HCPs, including hospital practitioners, general practitioners, pharmacists and nurses (depending on the jurisdiction), who administer vaccines and provide trustworthy information to the public, expect efficient systems to access and deliver ePILs, potentially integrated with existing electronic health records (EHRs) and prescribing systems, and assurance that the ePILs are up-to-date and accurate. HCPs that administer vaccines can vary among EU Member States.
 
 ### National Competent Authority (NCA)
 
@@ -103,7 +103,7 @@ The national marketing authorisation procedures consist of the decentralised pro
 
 ![Une image contenant texte, capture d’écran, Police, nombre Le contenu généré par l’IA peut être incorrect.](media/43796905771c6a94c7edf1cfa4abd184.png)
 
-Figure 1 - EU Marketing Authorisation Procedures
+*Figure 1 - EU Marketing Authorisation Procedures*
 
 ### Implications for the ePIL Implementation
 
@@ -133,11 +133,11 @@ Lisa and Daniel are a young couple living in EU-country B, though they are origi
 
 ![Une image contenant texte, capture d’écran, logiciel, Police Le contenu généré par l’IA peut être incorrect.](media/1750952776e02d23c6152ed5438dc4b6.png)
 
-Figure 2 - Search EMA database for vaccine "XYZ"
+*Figure 2 - Search EMA database for vaccine "XYZ"*
 
 ![Une image contenant texte, capture d’écran, logiciel, Icône d’ordinateur Le contenu généré par l’IA peut être incorrect.](media/3042888f8d0e79876eaa05cd95b2b611.png)
 
-Figure 3 - ePILs available in all EU languages on EMA database
+*Figure 3 - ePILs available in all EU languages on EMA database*
 
 Use Case for a Nationally Approved Vaccine
 
@@ -145,7 +145,7 @@ Maria, a resident of EU-country A, is on holiday in EU-country B when she is bit
 
 ![Une image contenant texte, capture d’écran, logiciel, Police Le contenu généré par l’IA peut être incorrect.](media/a2a14b1f692c7b01da59721eb2d02cd9.png)
 
-Figure 4 - EMA's list of national registers of authorised medicines
+*Figure 4 - EMA's list of national registers of authorised medicines*
 
 ### UC02 - Change of Leaflet Content
 
@@ -159,4 +159,4 @@ He can see there that this is a known and benign adverse event following immunis
 
 ![](media/ba28580d4422323ba59fab8d7c000868.png)
 
-Figure 5 - Luxembourg IIS portal with ePIL links
+*Figure 5 - Luxembourg IIS portal with ePIL links*

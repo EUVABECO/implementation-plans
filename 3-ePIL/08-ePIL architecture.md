@@ -52,7 +52,22 @@ The format of references is standardised and composed from:
 
 Figure 2 - Data model for references
 
-Within the EUVABECO pilot projects, the machine-readable format is a YAML file in a [public GitHub repository](https://github.com/EUVABECO/epil).
+Within the EUVABECO pilot projects, the machine-readable format is a YAML file in a [public GitHub repository](https://github.com/EUVABECO/epil). It contains structured entries such as this one:
+
+```
+VAC0001:
+  1:
+    label:
+      fr: Act-HIB 10 µg/0.5 ml sol. inj. (pdr. + solv.) i.m. flac.
+      nl: Act-HIB 10 µg/0.5 ml inj. opl. (pdr. + oplosm.) i.m. flac.
+    ePIL:
+      fr: https://app.fagg-afmps.be/pharma-status/api/files/62bc7e371e5c015ab3073b8a
+      nl: https://app.fagg-afmps.be/pharma-status/api/files/62bc7e381e5c015ab3073dbe
+    SmPC:
+      fr: https://app.fagg-afmps.be/pharma-status/api/files/62bc7e381e5c015ab3073ff7
+      nl: https://app.fagg-afmps.be/pharma-status/api/files/62bc7e391e5c015ab3074253
+```
+
 
 ## Redirection server
 

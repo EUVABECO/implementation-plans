@@ -1,4 +1,4 @@
-EUROPEAN VACCINATION CARD (EVC) - VERIFICATION
+# EUROPEAN VACCINATION CARD (EVC) - VERIFICATION
 
 # Characteristics to be checked
 
@@ -22,8 +22,11 @@ The signature server should be graded A or above using [Qualys SSL Server Test](
 The digital signature operator should run an information security management system certified against ISO 27001, encompassing the service of signature of the EVCs.
 
 # Verification resources
-+ [Implementation of an EVC scanner](https://github.com/EUVABECO/evc_scan)
-+ [EVC scanner exposed](https://evc.euvabeco.eu/)
-+ [Standalone encoder and decoder](https://github.com/EUVABECO/EVC-generator)
-+ [EVC samples ](Resources/EVC%20samples)
 
+| Resource                         | URL                                                                                        |
+|----------------------------------|--------------------------------------------------------------------------------------------|
+| Implementation of an EVC scanner | <https://github.com/EUVABECO/evc_scan><br><https://evc.euvabeco.eu/>                       |
+| Standalone encoder and decoder   | <https://github.com/EUVABECO/EVC-generator>                                                |
+| EVC samples                      | <https://github.com/EUVABECO/implementation-plans/tree/main/5-EVC/Resources/EVC%20samples> |
+
+## 

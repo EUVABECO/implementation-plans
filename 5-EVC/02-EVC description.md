@@ -1,4 +1,4 @@
-EUROPEAN VACCINATION CARD (EVC) - FUNCTIONAL DESCRIPTION
+# EUROPEAN VACCINATION CARD (EVC) - FUNCTIONAL DESCRIPTION
 
 # Objectives
 
@@ -222,7 +222,7 @@ The EHR application includes a comparison function that compares its preexisting
 
 Anna has to provide to the administrative services of the hospital a proof that she has received every mandatory vaccine foreseen for a nurse in a paediatric service, according to the Betarian law. Since the administration does not have to know of the details of her vaccination, they only require a vaccination certificate rather than a full vaccination card.
 
-Anna connects to a vaccination certificates platform provided by the Betarian eHealth operator and selects the purpose of the certificate. She then uploads her EVC and receives in return a vaccination certificate. This is again a PDF document enriched with a signed digital content, but stating only that at the date of today she was compliant with the enforced rules for her role.
+Anna connects to a vaccination certificates platform provided by the Betarian eHealth operator and selects the purpose of the certificate. She then uploads her EVC and receives in return a vaccination certificate. This is again a PDF document enriched with a signed digital content but stating only that at the date of today she was compliant with the enforced rules for her role.
 
 She can then address this certificate to the hospital administration without any need to disclose all or part of her vaccination history.
 

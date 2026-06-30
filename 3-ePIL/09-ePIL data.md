@@ -17,4 +17,4 @@ The mechanisms described in this implementation for accessing the Patient Inform
 
 -   Summary of Product Characteristics
 -   Pharmacovigilance alerts
--   Synthetic disease related information (similar to the Vaccine Information Statements released by the US CDC).
+-   Synthetic disease related information (similar to the [Vaccine Information Statements](https://www.cdc.gov/vaccines/hcp/current-vis/) released by the US CDC).
