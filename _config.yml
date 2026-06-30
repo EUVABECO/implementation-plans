@@ -1,0 +1,12 @@
+# Welcome to Jekyll!
+
+title: EUVABECO Implementation plans
+description: >- # this means to ignore newlines until "baseurl:"
+  The implementation plans for the 5 EUVABECO tools supporting vaccination practices.
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-relative-links
+  
+
