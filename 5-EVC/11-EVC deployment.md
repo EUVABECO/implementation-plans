@@ -20,7 +20,7 @@ After an initial framing, the project consists in three branches:
 
 The diagram below summarises the dependencies between the tasks in these branches.
 
-![](media/46efa3c49502fca8fd8cefe61aedf4a2.png)
+![](media/3e55fe54b6f79f12adb98232aab062b1.png)
 
 Figure 1- Implementation workflow overview
 
@@ -124,8 +124,6 @@ Compliant implementations must be able to read EVCs provided from any other comp
 
 # Build resources
 
-  + [Detailed specification of the EVC digital content](https://github.com/IVC-NUVA/CLVR)
-  + [Publication of NUVA terminology](https://github.com/IVC-NUVA/NUVA)
 | Resource                                          | URL                                                                                                  |
 |---------------------------------------------------|------------------------------------------------------------------------------------------------------|
 | Detailed specification of the EVC digital content | <https://github.com/IVC-NUVA/CLVR>                                                                   |
