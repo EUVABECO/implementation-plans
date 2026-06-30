@@ -28,5 +28,9 @@ url: "https://plans.euvabeco.eu" # the base hostname & protocol for your site, e
 plugins:
   - jekyll-feed
   - jekyll-relative-links
+
+relative_links:
+  enabled: true
+ 
   
 
