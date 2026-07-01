@@ -1,6 +1,3 @@
----
-title: EUVABECO implementation plans
----
 # Implementation plans
 This repository contains the implementation plans for the 5 EUVABECO tools:
 1. [Clinical Decision Support System](1-CDS/README.md)
