@@ -109,7 +109,7 @@ Each EHR supplier for a client system should now perform its own integration of 
 
 ## C3 – Verification of compliance
 
-Compliant implementations must be able to read EVCs provided from any other compliant system, and to write EVCs that can be read from other systems. This is documented in the [Verification](12-EVC%20verification.md) module.
+Compliant implementations must be able to read EVCs provided from any other compliant system, and to write EVCs that can be read from other systems. This is documented in the [Verification](12-EVC_verification.md) module.
 
 # Typical planning
 
@@ -134,6 +134,6 @@ Compliant implementations must be able to read EVCs provided from any other comp
 | Reference implementation for a signature server   |  <https://github.com/EUVABECO/signer>                                                                |
 | Implementation of an EVC scanner                  | <https://github.com/EUVABECO/evc_scan><br><https://evc.euvabeco.eu/>                                 |
 | Standalone encoder and decoder                    | <https://github.com/EUVABECO/EVC-generator>                                                          |
-| Alternative keystore documentation                | <https://github.com/EUVABECO/implementation-plans/blob/main/5-EVC/Resources/Keystore.md>             |
+| Alternative keystore documentation                |  [Resources/Keystore](Resources/Keystore.md)            |
 | Alternative keystore exposed                      | <https://keys.euvabeco.eu/.well-known/jwks.json>                                                     |
-| Deduplication policy                              | <https://github.com/EUVABECO/implementation-plans/blob/main/5-EVC/Resources/EVC%20deduplication.md>  |
+| Deduplication policy                              | [Resources/EVC deduplication](Resources/EVC_deduplication.md)  |

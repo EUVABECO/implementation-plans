@@ -1,3 +1,6 @@
+---
+title: ePIL Implementation plan
+---
 # ELECTRONIC PATIENT INFORMATION LEAFLET (ePIL)  
 
 # Overview
@@ -18,13 +21,13 @@ The ePIL implementation plan consists of the following modules.
 
 | \# | Title                  | Description                                                                                                                                                                                                                                                        |
 |----|------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 02 | [Functional description](°2-ePIL%20description.md) | Functional analysis of the ePIL tool with an overview, the stakeholders using or contributing to the use of the tool, their respective functional requirements, the non-functional requirements, and a collection of use cases illustrating the desired functions. |
-| 04 | [Prerequisites](04-ePIL%20prerequisites.md)    | Contextual conditions that must be met before the project is launched, and a few workarounds that could be used to anticipate upon their fulfilment.                                                                                                               |
-| 08 | [Architecture](08-ePIL%20architecture.md) | This module details the architecture of the ePIL tool as it as been envisioned and deployed within the EUVABECO project. Assumptions made with this architecture, although minimal, condition the ePIL deployment plan described in module 11.                     |
-| 09 | [Data](09-ePIL%20data.md) | This module details the external data that is needed for the operation of the ePIL tool in terms of content, format and sources.                                                                                                                                   |
-| 11 | [Deployment](11-ePIL%20deployment.md) | This module describes the resources, workflow and planning for the deployment of the ePIL tool.                                                                                                                                                                    |
-| 12 | [Verification](12-ePIL%20verification.md) | This module describes the verifications that should be applied before releasing to production a deployed ePIL tool..                                                                                                                                               |
-| 13 | [Operations](13-ePIL%20operations.md)   | This module proposes an organization and assigns tasks for keeping the ePIL tool operational once it has been deployed.                                                                                                                                            |
+| 02 | [Functional description](02-ePIL_description.md) | Functional analysis of the ePIL tool with an overview, the stakeholders using or contributing to the use of the tool, their respective functional requirements, the non-functional requirements, and a collection of use cases illustrating the desired functions. |
+| 04 | [Prerequisites](04-ePIL_prerequisites.md)    | Contextual conditions that must be met before the project is launched, and a few workarounds that could be used to anticipate upon their fulfilment.                                                                                                               |
+| 08 | [Architecture](08-ePIL_architecture.md) | This module details the architecture of the ePIL tool as it as been envisioned and deployed within the EUVABECO project. Assumptions made with this architecture, although minimal, condition the ePIL deployment plan described in module 11.                     |
+| 09 | [Data](09-ePIL_data.md) | This module details the external data that is needed for the operation of the ePIL tool in terms of content, format and sources.                                                                                                                                   |
+| 11 | [Deployment](11-ePIL_deployment.md) | This module describes the resources, workflow and planning for the deployment of the ePIL tool.                                                                                                                                                                    |
+| 12 | [Verification](12-ePIL_verification.md) | This module describes the verifications that should be applied before releasing to production a deployed ePIL tool..                                                                                                                                               |
+| 13 | [Operations](13-ePIL_operations.md)   | This module proposes an organization and assigns tasks for keeping the ePIL tool operational once it has been deployed.                                                                                                                                            |
 
 # List of Abbreviations and Acronyms
 

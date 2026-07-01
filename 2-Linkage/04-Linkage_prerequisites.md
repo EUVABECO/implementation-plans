@@ -54,7 +54,7 @@ Stakeholder interests may also shape implementation, as organisations can differ
 
 **IT infrastructure**
 
-Complementary to characteristics described in [Linkage functional description](02-Linkage%20description.md) – *Constraints*, the IT infrastructure requires a number of measures to be put in place:
+Complementary to characteristics described in [Linkage functional description](02-Linkage_description.md) – *Constraints*, the IT infrastructure requires a number of measures to be put in place:
 
 -   **Security:** The tool requires an IT infrastructure and network enabling the entry, collection, transfer, storage, and access of data in a secured manner (e.g., encryption, role-based access control and permission, audit logs, immutable logs, multi-factor authentication, etc.).
 -   **Separation of environments:** Staging, linkage, validation storage and analysis environments need to be divided to ensure separation of rights and responsibilities. Each environment serves a distinct purpose (e.g. data cleaning, matching, long-term storage and analysis) while maintaining end-to-end security and compliance with relevant legal and ethical obligations, and guaranteeing data integrity.

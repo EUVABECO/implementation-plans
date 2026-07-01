@@ -6,7 +6,7 @@ title: EVC operations
 # Governance
 ## Maintenance of the registry
 
-Within each health jurisdiction, new repositories can be deployed, existing repositories can be merged or contact persons for repositories may change. It is the responsibility of the local health authority curating the registry to attribute an identifier to each new repository and manage the contact list for existing ones. A [registry management guide](Resources/Registry%20management.md) has been released by the EUVABECO project.
+Within each health jurisdiction, new repositories can be deployed, existing repositories can be merged or contact persons for repositories may change. It is the responsibility of the local health authority curating the registry to attribute an identifier to each new repository and manage the contact list for existing ones. A [registry management guide](Resources/Registry_management.md) has been released by the EUVABECO project.
 
 ## Maintenance of the software applications
 
@@ -46,7 +46,7 @@ In order to anticipate for upscaling of the resources, the monitoring should inc
 
 # Use in crisis situations
 
-Unlike the EU Digital Covid Certificate, the EVC is not intended to be used as a [certificate of sterilizing immunity](https://www.adultimmunizationboard.org/wp-content/uploads/2026/05/26ANT702_Tassinari.pdf). If such a certificate was necessary again, it should not be a vaccination history, but a minimized statement of compliance at a given time for a given set of rules. This certificate could be delivered by a Clinical Decision Support system, based upon the EVC as a trusted source of information, but also other sources for test results or past infections, as described in use case [UC06](02-EVC%20description.md\#uc06--obtaining-a-vaccination-certificate) of the EVC description.
+Unlike the EU Digital Covid Certificate, the EVC is not intended to be used as a [certificate of sterilizing immunity](https://www.adultimmunizationboard.org/wp-content/uploads/2026/05/26ANT702_Tassinari.pdf). If such a certificate was necessary again, it should not be a vaccination history, but a minimized statement of compliance at a given time for a given set of rules. This certificate could be delivered by a Clinical Decision Support system, based upon the EVC as a trusted source of information, but also other sources for test results or past infections, as described in use case [UC06](02-EVC_description.md\#uc06--obtaining-a-vaccination-certificate) of the EVC description.
 
 # Communication
 

@@ -1,3 +1,6 @@
+---
+title: Linkage description
+---
 # DATA LINKAGE PROCESS - FUNCTIONAL DESCRIPTION
 
 *This section provides a functional overview of the intended tool and its usage. It outlines the goals and features without referring to any specific implementation.*
