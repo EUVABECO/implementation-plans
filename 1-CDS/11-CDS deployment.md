@@ -1,3 +1,6 @@
+---
+title: CDS deployment
+---
 # CLINICAL DECISION SUPPORT SYSTEM (CDS) - DEPLOYMENT
 
 # Project team

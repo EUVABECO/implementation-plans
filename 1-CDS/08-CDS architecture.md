@@ -1,3 +1,7 @@
+---
+title: CDS architecture
+---
+
 # CLINICAL DECISION SUPPORT SYSTEM (CDS) - ARCHITECTURE
 
 The CDS consists of two key components: a software engine and datasets representing knowledge about the vaccine’s characteristics, the relevant conditions for assessing a vaccination audit, and the rules used to determine the recommended vaccinations to perform, complemented with the messages presented to justify these recommendations.

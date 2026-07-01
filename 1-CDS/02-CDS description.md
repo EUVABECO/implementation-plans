@@ -1,3 +1,7 @@
+---
+title: CDS description
+---
+
 # CLINICAL DECISION SUPPORT SYSTEM (CDS) - FUNCTIONAL DESCRIPTION
 
 # Description of the tool

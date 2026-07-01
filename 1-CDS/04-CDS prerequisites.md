@@ -1,3 +1,7 @@
+---
+title: CDS prerequisites
+---
+
 # CLINICAL DECISION SUPPORT SYSTEM (CDS) - PREREQUISITES
 
 ## Assessment of prerequisites

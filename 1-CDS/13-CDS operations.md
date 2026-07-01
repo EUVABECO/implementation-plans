@@ -1,3 +1,7 @@
+---
+title: CDS operations
+---
+
 # CLINICAL DECISION SUPPORT SYSTEM (CDS) - OPERATIONS
 
 # Governance

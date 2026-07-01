@@ -1,3 +1,7 @@
+---
+title: CDS security and privacy
+---
+
 # CLINICAL DECISION SUPPORT SYSTEM (CDS) - SECURITY AND PRIVACY
 
 # Purpose
