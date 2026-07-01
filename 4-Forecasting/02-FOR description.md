@@ -1,3 +1,6 @@
+---
+title: Forecasting description
+---
 # FORECASTING TOOL - FUNCTIONAL DESCRIPTION
 
 # Description of the tool

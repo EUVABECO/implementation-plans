@@ -1,3 +1,6 @@
+---
+title: ePIL architecture
+---
 # ELECTRONIC PATIENT INFORMATION LEAFLET (ePIL) - ARCHITECTURE
 
 Providing the ePIL as a service to citizens implies several stages:

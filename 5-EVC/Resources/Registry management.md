@@ -1,3 +1,6 @@
+---
+title: EVC registries and repositories
+---
 # EVC REGISTRIES AND REPOSITORIES MANAGEMENT
 
 # Purpose

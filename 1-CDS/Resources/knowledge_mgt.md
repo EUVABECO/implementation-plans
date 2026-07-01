@@ -1,3 +1,6 @@
+---
+title: CDS knowledge management
+---
 # CDS - KNOWLEDGE MANAGEMENT POLICY
 
 # Purpose

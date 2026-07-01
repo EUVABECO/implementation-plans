@@ -1,3 +1,6 @@
+---
+title: Linkage verification
+---
 # DATA LINKAGE PROCESS - VERIFICATION
 
 Within the data processor, a distinction is made between the technical (or validation) environment, and the operational (or analysis) environment.

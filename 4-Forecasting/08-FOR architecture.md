@@ -1,3 +1,6 @@
+---
+title: Forecasting architecture
+---
 # FORECASTING TOOL - ARCHITECTURE
 
 # Architecture

@@ -8,6 +8,8 @@ This repository contains the implementation plans for the 5 EUVABECO tools:
 
 Each implementation plan is complemented with supporting resources for implementers.
 
+>[!note]
+> These plans are exposed at https://plans.euvabeco.net and editable from the [EUVABECO GitHub repository]( https://github.com/EUVABECO/implementation-plans/)
 
 _The EUVABECO project was co-funded by the European Union. Views and opinions expressed are however those of the author(s) only and do not necessarily reflect those of the European Union or HaDEA. Neither the European Union nor the granting authority can be held responsible for them._
 

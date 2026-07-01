@@ -1,3 +1,6 @@
+---
+title: EVC architecture
+---
 # EUROPEAN VACCINATION CARD (EVC) - ARCHITECTURE
 
 The EVC is a PDF file encompassing the three representations of the same vaccination history:

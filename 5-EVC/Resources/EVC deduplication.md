@@ -1,3 +1,6 @@
+---
+title: EVC deduplication
+---
 # EVC DEDUPLICATION POLICY
 
 # Purpose

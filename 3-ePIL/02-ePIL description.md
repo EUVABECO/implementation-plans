@@ -1,3 +1,6 @@
+---
+title: ePIL description
+---
 # ELECTRONIC PATIENT INFORMATION LEAFLET (ePIL) - FUNCTIONAL DESCRIPTION
 
 # Description of the tool

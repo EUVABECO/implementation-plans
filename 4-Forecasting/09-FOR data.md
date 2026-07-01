@@ -1,3 +1,6 @@
+---
+title: Forecasting data
+---
 # FORECASTING TOOL - DATA
 
 # Epidemiological surveillance data

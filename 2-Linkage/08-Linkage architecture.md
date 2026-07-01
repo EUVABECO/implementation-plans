@@ -1,3 +1,7 @@
+---
+title: Linkage architecture
+---
+
 # DATA LINKAGE PROCESS - ARCHITECTURE
 
 The Data Linkage tool is a process, more than a tool or service. As such, the exact architecture will vary across the implementers to meet their own constraints and needs. However, some key elements and principles should be present in all implementations (Figure 1):
