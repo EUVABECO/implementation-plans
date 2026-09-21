@@ -1,5 +1,7 @@
 ---
 title: EVC security and privacy
+layout: default
+tool: EVC
 ---
 # EUROPEAN VACCINATION CARD (EVC) - SECURITY AND PRIVACY
 

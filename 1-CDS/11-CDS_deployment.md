@@ -1,5 +1,7 @@
 ---
 title: CDS deployment
+layout: default
+tool: CDS
 ---
 # CLINICAL DECISION SUPPORT SYSTEM (CDS) - DEPLOYMENT
 

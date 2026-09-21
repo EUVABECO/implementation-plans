@@ -1,5 +1,7 @@
 ---
 title: EVC verification
+layout: default
+tool: EVC
 ---
 # EUROPEAN VACCINATION CARD (EVC) - VERIFICATION
 

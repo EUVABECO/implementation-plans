@@ -1,5 +1,7 @@
 ---
 title: ePIL deployment
+layout: default
+tool: ePIL
 ---
 # ELECTRONIC PATIENT INFORMATION LEAFLET (ePIL) - DEPLOYMENT
 

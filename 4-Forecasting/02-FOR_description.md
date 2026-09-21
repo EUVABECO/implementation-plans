@@ -1,5 +1,7 @@
 ---
 title: Forecasting description
+layout: default
+tool: Forecasting
 ---
 # FORECASTING TOOL - FUNCTIONAL DESCRIPTION
 

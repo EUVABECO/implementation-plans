@@ -1,5 +1,7 @@
 ---
 title: CDS operations
+layout: default
+tool: CDS
 ---
 
 # CLINICAL DECISION SUPPORT SYSTEM (CDS) - OPERATIONS

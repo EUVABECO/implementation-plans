@@ -1,5 +1,7 @@
 ---
 title: Linkage security and privacy
+layout: default
+tool: Linkage
 ---
 
 # DATA LINKAGE PROCESS - SECURITY AND PRIVACY

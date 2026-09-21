@@ -1,5 +1,7 @@
 ---
 title: Forecasting architecture
+layout: default
+tool: Forecasting
 ---
 # FORECASTING TOOL - ARCHITECTURE
 

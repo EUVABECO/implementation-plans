@@ -1,5 +1,7 @@
 ---
 title: ePIL verification
+layout: default
+tool: ePIL
 ---
 # ELECTRONIC PATIENT INFORMATION LEAFLET (ePIL) - VERIFICATION
 

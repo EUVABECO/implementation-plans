@@ -1,5 +1,7 @@
 ---
 title: Forecasting security and privacy
+layout: default
+tool: Forecasting
 ---
 # FORECASTING TOOL - SECURITY AND PRIVACY
 

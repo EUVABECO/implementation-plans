@@ -1,5 +1,7 @@
 ---
 title: CDS prerequisites
+layout: default
+tool: CDS
 ---
 
 # CLINICAL DECISION SUPPORT SYSTEM (CDS) - PREREQUISITES

@@ -1,5 +1,7 @@
 ---
 title: EVC operations
+layout: default
+tool: EVC
 ---
 # EUROPEAN VACCINATION CARD (EVC) - OPERATIONS
 

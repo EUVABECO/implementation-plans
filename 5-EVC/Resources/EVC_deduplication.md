@@ -1,5 +1,7 @@
 ---
 title: EVC deduplication
+layout: default
+tool: EVC
 ---
 # EVC DEDUPLICATION POLICY
 

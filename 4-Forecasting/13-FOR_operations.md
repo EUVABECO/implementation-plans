@@ -1,5 +1,7 @@
 ---
 title: Forecasting operations
+layout: default
+tool: Forecasting
 ---
 # FORECASTING TOOL - OPERATIONS
 

@@ -1,5 +1,7 @@
 ---
 title: EVC data
+layout: default
+tool: EVC
 ---
 # EUROPEAN VACCINATION CARD (EVC) - DATA
 

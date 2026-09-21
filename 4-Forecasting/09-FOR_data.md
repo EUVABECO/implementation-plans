@@ -1,5 +1,7 @@
 ---
 title: Forecasting data
+layout: default
+tool: Forecasting
 ---
 # FORECASTING TOOL - DATA
 

@@ -1,5 +1,7 @@
 ---
 title: EVC keystore
+layout: default
+tool: EVC
 ---
 # EVC KEYSTORE
 

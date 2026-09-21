@@ -1,5 +1,7 @@
 ---
 title: Forecasting verification
+layout: default
+tool: Forecasting
 ---
 # FORECASTING TOOL - VERIFICATION
 

@@ -1,5 +1,7 @@
 ---
 title: Forecasting Implementation plan
+layout: default
+tool: Forecasting
 ---
 # MODELLING AND FORECASTING TOOL (FOR)  
 

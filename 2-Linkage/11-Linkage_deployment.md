@@ -1,5 +1,7 @@
 ---
 title: Linkage deployment
+layout: default
+tool: Linkage
 ---
 # DATA LINKAGE PROCESS - DEPLOYMENT
 

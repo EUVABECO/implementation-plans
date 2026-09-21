@@ -22,7 +22,7 @@ title: EUVABECO Implementation plans
 description: >- # this means to ignore newlines until "baseurl:"
   The implementation plans for the 5 EUVABECO tools supporting vaccination practices.
 baseurl: "/" # the subpath of your site, e.g. /blog
-url: "https://plans.euvabeco.eu" # the base hostname & protocol for your site, e.g. http://example.com
+url: "file:///C:/Users/Fran%C3%A7ois/Documents/Clients%20et%20prospects/Syadem/Euvabeco/implementation-plans/_site/" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 plugins:
@@ -32,4 +32,7 @@ plugins:
 relative-links:
   enabled: true
   collections: true
+
+
+  
   

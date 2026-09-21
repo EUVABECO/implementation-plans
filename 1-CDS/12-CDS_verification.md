@@ -1,5 +1,7 @@
 ---
 title: CDS verification
+layout: default
+tool: CDS
 ---
 # CLINICAL DECISION SUPPORT SYSTEM (CDS) - VERIFICATION
 

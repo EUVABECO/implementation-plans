@@ -1,5 +1,7 @@
 ---
 title: Forecasting deployment
+layout: default
+tool: Forecasting
 ---
 # FORECASTING TOOL - DEPLOYMENT
 

@@ -1,5 +1,7 @@
 ---
 title: Linkage architecture
+layout: default
+tool: Linkage
 ---
 
 # DATA LINKAGE PROCESS - ARCHITECTURE

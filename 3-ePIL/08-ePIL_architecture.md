@@ -1,5 +1,7 @@
 ---
 title: ePIL architecture
+layout: default
+tool: ePIL
 ---
 # ELECTRONIC PATIENT INFORMATION LEAFLET (ePIL) - ARCHITECTURE
 

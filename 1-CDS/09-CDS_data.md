@@ -1,5 +1,7 @@
 ---
 title: CDS data
+layout: default
+tool: CDS
 ---
 
 # CLINICAL DECISION SUPPORT SYSTEM (CDS) - DATA

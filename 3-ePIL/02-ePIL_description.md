@@ -1,5 +1,7 @@
 ---
 title: ePIL description
+layout: default
+tool: ePIL
 ---
 # ELECTRONIC PATIENT INFORMATION LEAFLET (ePIL) - FUNCTIONAL DESCRIPTION
 

@@ -1,5 +1,7 @@
 ---
 title: EVC Implementation plan
+layout: default
+tool: EVC
 ---
 
 # EUROPEAN VACCINATION CARD (EVC)  

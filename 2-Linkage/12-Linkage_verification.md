@@ -1,5 +1,7 @@
 ---
 title: Linkage verification
+layout: default
+tool: Linkage
 ---
 # DATA LINKAGE PROCESS - VERIFICATION
 

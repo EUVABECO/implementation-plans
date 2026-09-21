@@ -1,5 +1,7 @@
 ---
 title: ePIL operations
+layout: default
+tool: ePIL
 ---
 # ELECTRONIC PATIENT INFORMATION LEAFLET (ePIL) - OPERATIONS
 

@@ -1,5 +1,7 @@
 ---
-title: CDS Implementation plan
+title: CDS Overview
+layout: default
+tool: CDS
 ---
 # CLINICAL DECISION SUPPORT SYSTEM (CDS)
 

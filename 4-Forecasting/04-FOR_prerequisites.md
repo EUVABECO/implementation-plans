@@ -1,5 +1,7 @@
 ---
 title: Forecasting prerequisites
+layout: default
+tool: Forecasting
 ---
 # FORECASTING TOOL - PREREQUISITES
 

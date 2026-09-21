@@ -1,5 +1,7 @@
 ---
 title: Linkage data
+layout: default
+tool: Linkage
 ---
 
 # DATA LINKAGE PROCESS  - DATA

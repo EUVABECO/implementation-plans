@@ -1,5 +1,7 @@
 ---
 title: Linkage prerequisites
+layout: default
+tool: Linkage
 ---
 
 # DATA LINKAGE PROCESS - PREREQUISITES

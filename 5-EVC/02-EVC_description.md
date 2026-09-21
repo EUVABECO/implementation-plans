@@ -1,5 +1,7 @@
 ---
 title: EVC description
+layout: default
+tool: EVC
 ---
 # EUROPEAN VACCINATION CARD (EVC) - FUNCTIONAL DESCRIPTION
 

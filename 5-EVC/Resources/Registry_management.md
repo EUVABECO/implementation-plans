@@ -1,5 +1,7 @@
 ---
 title: EVC registries and repositories
+layout: default
+tool: EVC
 ---
 # EVC REGISTRIES AND REPOSITORIES MANAGEMENT
 

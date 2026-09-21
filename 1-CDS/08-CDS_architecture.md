@@ -1,5 +1,7 @@
 ---
 title: CDS architecture
+layout: default
+tool: CDS
 ---
 
 # CLINICAL DECISION SUPPORT SYSTEM (CDS) - ARCHITECTURE

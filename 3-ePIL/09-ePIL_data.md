@@ -1,5 +1,7 @@
 ---
 title: ePIL data
+layout: default
+tool: ePIL
 ---
 # ELECTRONIC PATIENT INFORMATION LEAFLET (ePIL) - DATA
 

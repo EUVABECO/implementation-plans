@@ -1,5 +1,7 @@
 ---
 title: Linkage description
+layout: default
+tool: Linkage
 ---
 # DATA LINKAGE PROCESS - FUNCTIONAL DESCRIPTION
 

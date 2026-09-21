@@ -1,5 +1,7 @@
 ---
 title: EVC deployment
+layout: default
+tool: EVC
 ---
 # EUROPEAN VACCINATION CARD (EVC) - DEPLOYMENT
 

@@ -1,5 +1,7 @@
 ---
 title: Linkage Implementation plan
+layout: default
+tool: Linkage
 ---
 # DATA LINKAGE
 

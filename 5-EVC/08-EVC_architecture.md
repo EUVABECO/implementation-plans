@@ -1,5 +1,7 @@
 ---
 title: EVC architecture
+layout: default
+tool: EVC
 ---
 # EUROPEAN VACCINATION CARD (EVC) - ARCHITECTURE
 

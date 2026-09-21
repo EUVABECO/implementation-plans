@@ -1,5 +1,7 @@
 ---
 title: CDS knowledge management
+layout: default
+tool: CDS
 ---
 # CDS - KNOWLEDGE MANAGEMENT POLICY
 
