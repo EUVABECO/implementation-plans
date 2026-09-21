@@ -10,17 +10,16 @@
 	<h1>Menu</h1>
 	
 	<ul>
-	{%assign path= page.url |split: "/" %}
 	<li><a href={{site.url}}>Back to plans</a></li>
-	<li><a href="{{path[1]}}/README.html">{{page.tool}} overwiew</a></li>
-	
-	{% assign sorted = site.pages |sort: "name" %}
+	{% if page.tool != '' %}
+	<li><a href="README.html">{{page.tool}} overwiew</a></li>
+	{% endif %}
+
+	{% assign sorted = site.pages |sort: "name" | where: "tool", page.tool %}
 	{% for page2 in sorted %}
 	{%assign page2num = page2.name |round %}	
-	{% if page2.tool == page.tool %}
 	{% if page2num != 0 %}
 	<li><a href={{page2.url}}>{{page2.title}}</a></li>
-	{% endif %}
 	{% endif %}
 	{% endfor %}
 	</ul>
