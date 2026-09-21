@@ -13,7 +13,6 @@
 	<li><a href={{site.url}}>Back to plans</a></li>
 	{% if page.tool != '' %}
 	<li><a href="README.html">{{page.tool}} overwiew</a></li>
-	{% endif %}
 
 	{% assign sorted = site.pages |sort: "name" | where: "tool", page.tool %}
 	{% for page2 in sorted %}
@@ -22,6 +21,7 @@
 	<li><a href={{page2.url}}>{{page2.title}}</a></li>
 	{% endif %}
 	{% endfor %}
+	{% endif %}
 	</ul>
 	</div>
 	
