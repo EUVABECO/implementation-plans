@@ -1,7 +1,8 @@
 ---
 title: CDS verification
 layout: default
-tool: CDS
+parent: CDS
+nav_order: 12
 ---
 # CLINICAL DECISION SUPPORT SYSTEM (CDS) - VERIFICATION
 

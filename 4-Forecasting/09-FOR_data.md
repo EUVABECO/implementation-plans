@@ -1,7 +1,8 @@
 ---
 title: Forecasting data
 layout: default
-tool: Forecasting
+parent: Forecasting
+nav_order: 9
 ---
 # FORECASTING TOOL - DATA
 

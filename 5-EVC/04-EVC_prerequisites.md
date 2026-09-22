@@ -1,7 +1,8 @@
 ---
 title: EVC prerequisites
 layout: default
-tool: EVC
+parent: EVC
+nav_order: 4
 ---
 # EUROPEAN VACCINATION CARD (EVC) - PREREQUISITES
 

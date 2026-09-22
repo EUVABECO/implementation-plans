@@ -1,7 +1,7 @@
 ---
-title: Linkage Implementation plan
+title: Linkage
 layout: default
-tool: Linkage
+nav_order: 2
 ---
 # DATA LINKAGE
 

@@ -1,7 +1,7 @@
 ---
-title: CDS Overview
+title: CDS
 layout: default
-tool: CDS
+nav_order: 1
 ---
 # CLINICAL DECISION SUPPORT SYSTEM (CDS)
 

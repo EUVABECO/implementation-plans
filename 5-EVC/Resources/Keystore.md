@@ -1,7 +1,8 @@
 ---
 title: EVC keystore
 layout: default
-tool: EVC
+parent: EVC
+nav_order: 101
 ---
 # EVC KEYSTORE
 

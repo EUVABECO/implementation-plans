@@ -1,7 +1,8 @@
 ---
 title: Forecasting verification
 layout: default
-tool: Forecasting
+parent: Forecasting
+nav_order: 12
 ---
 # FORECASTING TOOL - VERIFICATION
 

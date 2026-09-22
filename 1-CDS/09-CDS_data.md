@@ -1,7 +1,8 @@
 ---
 title: CDS data
 layout: default
-tool: CDS
+parent: CDS
+nav_order: 9
 ---
 
 # CLINICAL DECISION SUPPORT SYSTEM (CDS) - DATA

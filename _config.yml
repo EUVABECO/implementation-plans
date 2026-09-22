@@ -27,6 +27,10 @@ url: "https://plans.euvabeco.eu" # the base hostname & protocol for your site, e
 # Build settings
 plugins:
   - jekyll-relative-links
+  - jekyll-seo-tag
+  - jekyll-github-metadata
+  - jekyll-include-cache
+  - jekyll-sitemap  
 
 relative-links:
   enabled: true

@@ -1,7 +1,8 @@
 ---
 title: Forecasting operations
 layout: default
-tool: Forecasting
+parent: Forecasting
+nav_order: 13
 ---
 # FORECASTING TOOL - OPERATIONS
 

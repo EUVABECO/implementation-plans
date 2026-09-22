@@ -1,7 +1,8 @@
 ---
 title: Forecasting architecture
 layout: default
-tool: Forecasting
+parent: Forecasting
+nav_order: 8
 ---
 # FORECASTING TOOL - ARCHITECTURE
 

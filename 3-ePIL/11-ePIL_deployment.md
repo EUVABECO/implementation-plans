@@ -1,7 +1,8 @@
 ---
 title: ePIL deployment
 layout: default
-tool: ePIL
+parent: ePIL
+nav_order: 11
 ---
 # ELECTRONIC PATIENT INFORMATION LEAFLET (ePIL) - DEPLOYMENT
 

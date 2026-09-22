@@ -1,7 +1,8 @@
 ---
 title: EVC verification
 layout: default
-tool: EVC
+parent: EVC
+nav_order: 12
 ---
 # EUROPEAN VACCINATION CARD (EVC) - VERIFICATION
 

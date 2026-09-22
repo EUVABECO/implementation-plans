@@ -1,7 +1,8 @@
 ---
 title: EVC data
 layout: default
-tool: EVC
+parent: EVC
+nav_order: 9
 ---
 # EUROPEAN VACCINATION CARD (EVC) - DATA
 

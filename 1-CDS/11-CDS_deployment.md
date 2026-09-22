@@ -1,7 +1,8 @@
 ---
 title: CDS deployment
 layout: default
-tool: CDS
+parent: CDS
+nav_order: 4
 ---
 # CLINICAL DECISION SUPPORT SYSTEM (CDS) - DEPLOYMENT
 

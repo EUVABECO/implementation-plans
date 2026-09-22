@@ -1,7 +1,8 @@
 ---
 title: EVC deduplication
 layout: default
-tool: EVC
+parent: EVC
+nav_order: 102
 ---
 # EVC DEDUPLICATION POLICY
 

@@ -1,7 +1,8 @@
 ---
 title: EVC deployment
 layout: default
-tool: EVC
+parent: EVC
+nav_order: 11
 ---
 # EUROPEAN VACCINATION CARD (EVC) - DEPLOYMENT
 

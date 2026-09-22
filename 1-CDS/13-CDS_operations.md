@@ -1,7 +1,8 @@
 ---
 title: CDS operations
 layout: default
-tool: CDS
+parent: CDS
+nav_order: 13
 ---
 
 # CLINICAL DECISION SUPPORT SYSTEM (CDS) - OPERATIONS

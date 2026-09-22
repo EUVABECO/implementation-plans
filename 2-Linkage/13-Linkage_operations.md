@@ -1,7 +1,8 @@
 ---
 title: Linkage operations
 layout: default
-tool: Linkage
+parent: Linkage
+nav_order: 13
 ---
 # DATA LINKAGE PROCESS  - OPERATIONS
 

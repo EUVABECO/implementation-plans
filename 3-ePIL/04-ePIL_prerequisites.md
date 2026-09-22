@@ -1,7 +1,8 @@
 ---
 title: ePIL prerequisites
 layout: default
-tool: ePIL
+parent: ePIL
+nav_order: 2
 ---
 # ELECTRONIC PATIENT INFORMATION LEAFLET (ePIL) - PREREQUISITES
 

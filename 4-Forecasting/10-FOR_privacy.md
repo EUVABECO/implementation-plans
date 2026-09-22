@@ -1,7 +1,8 @@
 ---
 title: Forecasting security and privacy
 layout: default
-tool: Forecasting
+parent: Forecasting
+nav_order: 10
 ---
 # FORECASTING TOOL - SECURITY AND PRIVACY
 

@@ -1,7 +1,8 @@
 ---
 title: ePIL data
 layout: default
-tool: ePIL
+parent: ePIL
+nav_order: 9
 ---
 # ELECTRONIC PATIENT INFORMATION LEAFLET (ePIL) - DATA
 

@@ -1,7 +1,8 @@
 ---
 title: Linkage verification
 layout: default
-tool: Linkage
+parent: Linkage
+nav_order: 12
 ---
 # DATA LINKAGE PROCESS - VERIFICATION
 

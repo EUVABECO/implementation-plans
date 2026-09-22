@@ -1,7 +1,8 @@
 ---
 title: Forecasting description
 layout: default
-tool: Forecasting
+parent: Forecasting
+nav_order: 2
 ---
 # FORECASTING TOOL - FUNCTIONAL DESCRIPTION
 

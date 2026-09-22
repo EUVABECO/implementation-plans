@@ -1,7 +1,8 @@
 ---
 title: Linkage deployment
 layout: default
-tool: Linkage
+parent: Linkage
+nav_order: 11
 ---
 # DATA LINKAGE PROCESS - DEPLOYMENT
 

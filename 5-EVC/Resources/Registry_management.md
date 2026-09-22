@@ -1,7 +1,8 @@
 ---
 title: EVC registries and repositories
 layout: default
-tool: EVC
+parent: EVC
+nav_order: 100
 ---
 # EVC REGISTRIES AND REPOSITORIES MANAGEMENT
 

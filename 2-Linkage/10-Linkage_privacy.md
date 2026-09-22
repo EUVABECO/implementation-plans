@@ -1,7 +1,8 @@
 ---
 title: Linkage security and privacy
 layout: default
-tool: Linkage
+parent: Linkage
+nav_order: 10
 ---
 
 # DATA LINKAGE PROCESS - SECURITY AND PRIVACY

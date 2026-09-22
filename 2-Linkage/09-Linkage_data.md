@@ -1,7 +1,8 @@
 ---
 title: Linkage data
 layout: default
-tool: Linkage
+parent: Linkage
+nav_order: 9
 ---
 
 # DATA LINKAGE PROCESS  - DATA

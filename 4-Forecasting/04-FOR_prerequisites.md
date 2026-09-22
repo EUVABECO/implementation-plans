@@ -1,7 +1,8 @@
 ---
 title: Forecasting prerequisites
 layout: default
-tool: Forecasting
+parent: Forecasting
+nav_order: 4
 ---
 # FORECASTING TOOL - PREREQUISITES
 

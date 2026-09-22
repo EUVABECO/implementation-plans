@@ -1,7 +1,8 @@
 ---
 title: ePIL verification
 layout: default
-tool: ePIL
+parent: ePIL
+nav_order: 12
 ---
 # ELECTRONIC PATIENT INFORMATION LEAFLET (ePIL) - VERIFICATION
 

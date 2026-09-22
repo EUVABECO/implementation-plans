@@ -1,7 +1,8 @@
 ---
 title: Linkage description
 layout: default
-tool: Linkage
+parent: Linkage
+nav_order: 2
 ---
 # DATA LINKAGE PROCESS - FUNCTIONAL DESCRIPTION
 

@@ -1,7 +1,8 @@
 ---
 title: Linkage prerequisites
 layout: default
-tool: Linkage
+parent: Linkage
+nav_order: 4
 ---
 
 # DATA LINKAGE PROCESS - PREREQUISITES

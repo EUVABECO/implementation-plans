@@ -1,7 +1,8 @@
 ---
 title: CDS description
 layout: default
-tool: CDS
+parent: CDS
+nav_order: 2
 ---
 
 # CLINICAL DECISION SUPPORT SYSTEM (CDS) - FUNCTIONAL DESCRIPTION

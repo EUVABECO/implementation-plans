@@ -1,7 +1,8 @@
 ---
 title: Forecasting deployment
 layout: default
-tool: Forecasting
+parent: Forecasting
+nav_order: 11
 ---
 # FORECASTING TOOL - DEPLOYMENT
 

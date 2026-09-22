@@ -1,7 +1,8 @@
 ---
 title: Linkage architecture
 layout: default
-tool: Linkage
+parent: Linkage
+nav_order: 8
 ---
 
 # DATA LINKAGE PROCESS - ARCHITECTURE

@@ -1,7 +1,8 @@
 ---
 title: EVC security and privacy
 layout: default
-tool: EVC
+parent: EVC
+nav_order: 10
 ---
 # EUROPEAN VACCINATION CARD (EVC) - SECURITY AND PRIVACY
 

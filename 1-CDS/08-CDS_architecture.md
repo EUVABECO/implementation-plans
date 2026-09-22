@@ -1,7 +1,8 @@
 ---
 title: CDS architecture
 layout: default
-tool: CDS
+parent: CDS
+nav_order: 8
 ---
 
 # CLINICAL DECISION SUPPORT SYSTEM (CDS) - ARCHITECTURE

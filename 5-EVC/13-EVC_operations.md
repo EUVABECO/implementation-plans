@@ -1,7 +1,8 @@
 ---
 title: EVC operations
 layout: default
-tool: EVC
+parent: EVC
+nav_order: 13
 ---
 # EUROPEAN VACCINATION CARD (EVC) - OPERATIONS
 

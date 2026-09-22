@@ -1,7 +1,8 @@
 ---
 title: CDS knowledge management
 layout: default
-tool: CDS
+parent: CDS
+nav_order: 100
 ---
 # CDS - KNOWLEDGE MANAGEMENT POLICY
 

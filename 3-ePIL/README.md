@@ -1,7 +1,7 @@
 ---
-title: ePIL Implementation plan
+title: ePIL
 layout: default
-tool: ePIL
+nav_order: 3
 ---
 # ELECTRONIC PATIENT INFORMATION LEAFLET (ePIL)  
 

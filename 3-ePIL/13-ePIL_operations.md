@@ -1,7 +1,8 @@
 ---
 title: ePIL operations
 layout: default
-tool: ePIL
+parent: ePIL
+nav_order: 13
 ---
 # ELECTRONIC PATIENT INFORMATION LEAFLET (ePIL) - OPERATIONS
 

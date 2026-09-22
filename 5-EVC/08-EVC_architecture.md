@@ -1,7 +1,8 @@
 ---
 title: EVC architecture
 layout: default
-tool: EVC
+parent: EVC
+nav_order: 8
 ---
 # EUROPEAN VACCINATION CARD (EVC) - ARCHITECTURE
 

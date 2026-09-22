@@ -1,7 +1,7 @@
 ---
-title: Forecasting Implementation plan
+title: Forecasting
 layout: default
-tool: Forecasting
+nav_order: 4
 ---
 # MODELLING AND FORECASTING TOOL (FOR)  
 

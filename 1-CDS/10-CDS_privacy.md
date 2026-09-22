@@ -1,7 +1,8 @@
 ---
 title: CDS security and privacy
 layout: default
-tool: CDS
+parent: CDS
+nav_order: 10
 ---
 
 # CLINICAL DECISION SUPPORT SYSTEM (CDS) - SECURITY AND PRIVACY
